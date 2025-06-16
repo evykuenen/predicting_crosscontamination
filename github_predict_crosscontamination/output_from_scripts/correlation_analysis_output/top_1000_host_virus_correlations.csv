@@ -1,0 +1,1001 @@
+virus,host,Correlation,HostCount,VirusCount,CoOccurrence
+Acinetobacter virus ME3,vanda hybride,1.0,1,1,1
+African eggplant mosaic virus,aegopodium,1.0,1,1,1
+Agave badnavirus A,yucca,1.0,2,2,2
+Agrobacterium virus Atuph07,vanda hybride,1.0,1,1,1
+Alfalfa enamovirus 1,ehretia microphylla,1.0,1,1,1
+Allium angulosum virus 1,allium schoenoprasum,1.0,1,1,1
+Allium cepa amalgavirus 1,allium schoenoprasum,1.0,1,1,1
+Alphapartitivirus sp.,alnus glutinosa,1.0,1,1,1
+Apium virus Y,dioscorea batata,1.0,1,1,1
+Apple dimple fruit viroid,heracleum spondyllium,1.0,1,1,1
+Apple virus E,acer pseudo,1.0,1,1,1
+Apricot vein clearing associated virus,ilex serrata,1.0,1,1,1
+Arabis mosaic virus large satellite RNA,campanula,1.0,1,1,1
+Arracacha latent virus E associated RNA,heracleum spondyllium,1.0,1,1,1
+Ash shoestring-associated emaravirus,fraxinus,1.0,1,1,1
+Audreyjarvisvirus AM1,cucumis melo,1.0,1,1,1
+Avon-Heathcote Estuary associated circular virus 3,calibrachoa petchoa petunia,1.0,1,1,1
+Badnavirus betamaculaflavicannae,tradescantia,1.0,1,1,1
+Badnavirus maculapiperis,awara,1.0,1,1,1
+Badnavirus tessellocitri,awara,1.0,1,1,1
+Badnavirus wisteriae,passiflora edulis,1.0,1,1,1
+Bat badicivirus 1,spondias,1.0,1,1,1
+Bathycoccus sp. RCC1105 virus BpV,hippeastrum,1.0,1,1,1
+Bcepfunavirus bcepF1,calibrachoa petunia,1.0,1,1,1
+Bean leaf curl Madagascar virus,aegopodium,1.0,1,1,1
+Bean-associated cytorhabdovirus,carica papaya,1.0,1,1,1
+Beet mosaic virus,campanula,1.0,1,1,1
+Beet oak leaf virus,euphorbia pulcherrima,1.0,1,1,1
+Beihai levi-like virus 1,cichorium intybus,1.0,1,1,1
+Beihai levi-like virus 20,rosmarinus,1.0,1,1,1
+Beihai levi-like virus 30,cichorium intybus,1.0,1,1,1
+Beihai levi-like virus 35,cichorium intybus,1.0,1,1,1
+Benedictvirus naca,liriope,1.0,1,1,1
+Betapapillomavirus 3,vanda hybride,1.0,1,1,1
+Betapartitivirus sp. 'aconiti',pastinaca sativa,1.0,1,1,1
+Black pepper virus B,chamaedorea elegans,1.0,1,1,1
+Black pepper virus E,ehretia microphylla,1.0,1,1,1
+Blackberry Virus F,vanda,1.0,1,1,1
+Bloodroot marafivirus,alnus glutinosa,1.0,1,1,1
+Botoulivirus alphaplasmoparae,fraxinus,1.0,1,1,1
+Botrytis cinerea deltaflexivirus 1,cercis,1.0,1,1,1
+Brassica yellows virus,ajuga reptans burgundy,1.0,1,1,1
+Brinovirus,liriope,1.0,1,1,1
+Bromovirus SVS,batatas,1.0,1,1,1
+Cabbage leaf curl virus,nymphaea,1.0,1,1,1
+Camellia cryptic virus 1,ilex aquifolia,1.0,1,1,1
+Camellia totivirus A,hippeastrum,1.0,1,1,1
+Cape gooseberry ilarvirus 1,cyrtostachys renda,1.0,1,1,1
+Caprine arthritis encephalitis virus,momordica,1.0,1,1,1
+Cardamine chlorotic fleck virus,campanula,1.0,1,1,1
+Carex angustisquama waikavirus,alnus glutinosa,1.0,1,1,1
+Carnation latent virus,campanula,1.0,1,1,1
+Carrot thin leaf virus,aegopodium,1.0,1,1,1
+Catharanthus mosaic virus,ceropegia,1.0,1,1,1
+Caulimovirus minutangelicae,pastinaca sativa,1.0,1,1,1
+Cereal yellow dwarf virus-RPV,encyclia adenocaule,1.0,1,1,1
+Cherry chlorotic rusty spot associated partitivirus,cocos,1.0,1,1,1
+Chickpea yellow mosaic virus,tropaeolum tuberosum,1.0,3,3,3
+Chimeric virus 14,fraxinus,1.0,1,1,1
+Cilio virus,liriope,1.0,1,1,1
+Cinunavirus CN1A,batatas,1.0,1,1,1
+Citrus jingmen-like virus,encyclia adenocaule,1.0,1,1,1
+Cladosporium uredinicola ourmiavirus 2,cercis,1.0,1,1,1
+Clover yellow vein virus,campanula,1.0,1,1,1
+Cnidium vein yellowing virus 1,lilium yelloween,1.0,1,1,1
+Coconut cadang-cadang viroid,cocos,1.0,1,1,1
+Coleus vein necrosis virus,campanula,1.0,1,1,1
+Colocasia umbra-like virus,alocasia,1.0,1,1,1
+Condavirus arvihabitans,acer pseudo,1.0,1,1,1
+Crassitunica tubakii mitovirus 2,acer pseudo,1.0,1,1,1
+Cryphonectria nitschkei chrysovirus 1,lysimachia,1.0,1,1,1
+Cucumis melo alphaendornavirus,cucumis melo,1.0,1,1,1
+Cucurbit yellow stunting disorder virus,cucumis melo,1.0,1,1,1
+Cuscuta virus 1,polyscias balfouriana,1.0,1,1,1
+Cycad leaf necrosis virus,yucca elephantipes,1.0,1,1,1
+Cymbidium mosaic virus,liriope,1.0,1,1,1
+Cynopterus sphinx circular DNA virus 11,spondias,1.0,1,1,1
+Diabrotica toursvirus 3a,pastinaca sativa,1.0,1,1,1
+Diplodia seriata botourmiavirus 1,carpinus betulus,1.0,1,1,1
+Diplodia seriata endornavirus 1,awara,1.0,1,1,1
+Ditton virus,lilium maldano rose,1.0,1,1,1
+Downy mildew lesion associated splipalmivirus 7,carpinus betulus,1.0,1,1,1
+Duamitovirus bodo1,awara,1.0,1,1,1
+EBPR podovirus 2,spondias,1.0,1,1,1
+Elderberry carlavirus B,aegopodium,1.0,1,1,1
+Enamovirus sp.,ehretia microphylla,1.0,1,1,1
+Enset leaf streak virus,maxillaria,1.0,1,1,1
+Enterovirus C,hippeastrum,1.0,1,1,1
+Epicoccum botoulivirus,lonicera,1.0,1,1,1
+Erysiphales associated mitovirus 1,cucumis,1.0,1,1,1
+Erysiphales ourmia-like virus 3,carpinus betulus,1.0,1,1,1
+Erysiphe necator associated abispo virus 4,lonicera,1.0,1,1,1
+Erysiphe necator associated deltaflexivirus 3,lonicera,1.0,1,1,1
+Erysiphe necator associated flexivirus 3,quercus rubra,1.0,1,1,1
+Erysiphe necator associated narnavirus 1,lonicera,1.0,1,1,1
+Erysiphe necator associated narnavirus 4,acer pseudo,1.0,1,1,1
+Erysiphe necator associated negative-stranded RNA virus 4,streptocarpus,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 108,lonicera,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 126,aegopodium,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 31,strelitzia,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 32,lonicera,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 37,aegopodium,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 39,lonicera,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 59,carpinus betulus,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 6,lonicera,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 67,pittosporum,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 7,carpinus betulus,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 95,aegopodium,1.0,1,1,1
+Erysiphe necator associated ourmia-like virus 96,fraxinus,1.0,1,1,1
+Erysiphe necator associated partitivirus 2,pittosporum,1.0,1,1,1
+Erysiphe necator associated sobemo-like virus 4,fraxinus,1.0,1,1,1
+Erysiphe necator associated totivirus 5,urtica,1.0,1,1,1
+Erysiphe necator mitovirus 3,cichorium intybus,1.0,1,1,1
+Escherichia virus Qbeta,cichorium intybus,1.0,1,1,1
+Fig badnavirus 2,ficus carica,1.0,1,1,1
+Foeniculum vulgare polerovirus,dioscorea batata,1.0,1,1,1
+Fraxinus symptomless virus,fraxinus,1.0,1,1,1
+Fusarium redolens polymycovirus 1,batatas,1.0,1,1,1
+Fushun levivirus 5,batatas,1.0,1,1,1
+Garlic virus X,echinacea purpurea,1.0,1,1,1
+Grapevine cryptic virus,acer pseudo,1.0,1,1,1
+Grapevine red blotch virus,vitis,1.0,2,2,2
+Grapevine umbra-like virus,liriope,1.0,1,1,1
+Grapevine-associated caulimovirus,quercus rubra,1.0,1,1,1
+Grapevine-associated mitovirus 21,awara,1.0,1,1,1
+Guiyang Paspalum thunbergii mito-like virus 1,quercus robur,1.0,1,1,1
+Hangzhou mitovirus 5,urtica,1.0,1,1,1
+Hangzhou narnavirus 5,acer pseudo,1.0,1,1,1
+Hubei levi-like virus 3,lilium maldano rose,1.0,1,1,1
+Hubei levi-like virus 6,cichorium intybus,1.0,1,1,1
+Hubei partiti-like virus 48,carpinus betulus,1.0,1,1,1
+Hubei picorna-like virus 1,ehretia microphylla,1.0,1,1,1
+Hubei polero-like virus 2,ilex serrata,1.0,1,1,1
+Hubei sclerotinia RNA virus 1,fraxinus,1.0,1,1,1
+Hubei sclerotinia RNA virus 1-WX,fraxinus,1.0,1,1,1
+Hubei toti-like virus 15,chenopodium album,1.0,1,1,1
+Human alphaherpesvirus 1,vanda hybride,1.0,1,1,1
+Human betaherpesvirus 6,eucomis,1.0,1,1,1
+Human blood-associated dicistrovirus,rosmarinus,1.0,1,1,1
+Inhavirus P12024S,cercis,1.0,1,1,1
+Iris mild mosaic virus,iris,1.0,1,1,1
+Iris yellow spot orthotospovirus,allium schoenoprasum,1.0,1,1,1
+Jasmine yellow mosaic potyvirus,campanula,1.0,1,1,1
+Jingmen bat iflavirus 5,acer pseudo,1.0,1,1,1
+Kilunavirus KL1,triticum aestivum,1.0,1,1,1
+Klebsiella virus Domnhall,beta vulgaris,1.0,3,3,3
+Kolesnikvirus Ea214,calibrachoa petchoa petunia,1.0,1,1,1
+Kylevirus kyle,cercis,1.0,1,1,1
+Lambdapapillomavirus 1,calibrachoa petunia,1.0,1,1,1
+Lentimonavirus armillariae,populus,1.0,1,1,1
+Leptosphaeria biglobosa deltaflexivirus 2,urtica,1.0,1,1,1
+Leptosphaeria biglobosa negative single-stranded RNA virus 6,streptocarpus,1.0,1,1,1
+Lettuce big-vein associated varicosavirus,eucomis,1.0,1,1,1
+Lettuce mild yellows virus,encyclia adenocaule,1.0,1,1,1
+Lettuce mosaic virus,campanula,1.0,1,1,1
+Lichen partiti-like RNA virus 1,cocos,1.0,1,1,1
+Likavirus hydra,calibrachoa petchoa petunia,1.0,1,1,1
+Lotus badnavirus 3,nymphaea,1.0,1,1,1
+Lullwatervirus lullwater,liriope,1.0,1,1,1
+Lymphocryptovirus humangamma4,strelitzia,1.0,1,1,1
+Macrophomina phaseolina chrysovirus,orchidacea,1.0,1,1,1
+Macroptilium yellow spot virus,nymphaea,1.0,1,1,1
+Mal de Rio Cuarto virus,lolium perenne,1.0,2,2,2
+Mbeech associated botourmia-like virus 35,acer pseudo,1.0,1,1,1
+Mbeech associated narna-like virus 2,quercus robur,1.0,1,1,1
+Metarhizium brunneum partitivirus 1,lonicera,1.0,1,1,1
+Mieseafarmvirus RSL1,liriope,1.0,1,1,1
+Monilinia fructicola botourmiavirus 11,quercus robur,1.0,1,1,1
+Moniliophthora roreri-associated narnavirus 1,quercus robur,1.0,1,1,1
+Monkeypox virus,vanda hybride,1.0,1,1,1
+Myoviridae sp. ctrnx29,liriope,1.0,1,1,1
+Myranavirus phabba,liriope,1.0,1,1,1
+Naranjilla mild mosaic virus,cichorium intybus,1.0,1,1,1
+Nepovirus aeonii,cyrtostachys renda,1.0,1,1,1
+Neurachne minor latent virus,hippeastrum,1.0,1,1,1
+Ningirsuvirus ninurta,liriope,1.0,1,1,1
+Novo Mesto picornavirus 1,urtica,1.0,1,1,1
+Nuihimevirus lutadaptatum,lonicera,1.0,1,1,1
+Old quarry swamp virus,cichorium intybus,1.0,1,1,1
+Olea europaea geminivirus,fraxinus,1.0,1,1,1
+Opuntia virus H,austrocylindropuntia subulata,1.0,1,1,1
+Orchid fleck dichorhavirus,oncidium,1.0,1,1,1
+Orthodiscovirus iberiae,fraxinus,1.0,1,1,1
+Paeonia citrivirus A,ilex serrata,1.0,1,1,1
+Panax cryptic virus 2,viburnum,1.0,1,1,1
+Paramecium bursaria Chlorella virus CZ-2,lonicera,1.0,1,1,1
+Penicillimonavirus deltaplasmoparae,cercis,1.0,1,1,1
+Penicillimonavirus epsilonplasmoparae,carpinus betulus,1.0,1,1,1
+Penintadodekavirus 5012,spondias,1.0,1,1,1
+Penoulivirus betaplasmoparae,batatas,1.0,1,1,1
+Phabiovirus phabio,allium tuberosum,1.0,4,4,4
+Phlox pilosa virus 1,lysimachia,1.0,1,1,1
+Physalis vein necrosis virus,cyrtostachys renda,1.0,1,1,1
+Picris betanucleorhabdovirus 1,polyscias balfouriana,1.0,1,1,1
+Picris cytorhabdovirus 1,urtica,1.0,1,1,1
+Piper chlorosis virus,peperomia,1.0,1,1,1
+Pittosporum cryptic virus-1,pachypodium,1.0,1,1,1
+Plant associated deltapartitivirus 3,pachypodium,1.0,1,1,1
+Plant associated viroid-like circular RNA 2,pittosporum,1.0,1,1,1
+Plasmopara viticola associated Partitivirus 10,yucca elephantipes,1.0,1,1,1
+Plasmopara viticola associated Partitivirus 3,yucca elephantipes,1.0,1,1,1
+Plasmopara viticola associated ourmia-like virus 75,solanum pseudocapsicum,1.0,1,1,1
+Plasmopara viticola associated ourmia-like virus 76,yucca elephantipes,1.0,1,1,1
+Plasmopara viticola associated ourmia-like virus 87,solanum pseudocapsicum,1.0,1,1,1
+Plasmopara viticola associated ourmia-like virus 88,solanum pseudocapsicum,1.0,1,1,1
+Plasmopara viticola associated ourmia-like virus 91,solanum pseudocapsicum,1.0,1,1,1
+Plasmopara viticola lesion associated botybirna 2,lonicera,1.0,1,1,1
+Plasmopara viticola lesion associated mycobunyavirales-like virus 9,allium schoenoprasum,1.0,1,1,1
+Plasmopara viticola lesion associated narnavirus 1,lonicera,1.0,1,1,1
+Plasmopara viticola lesion associated narnavirus 14,strelitzia,1.0,1,1,1
+Plasmopara viticola lesion associated narnavirus 32,chamaerops,1.0,1,1,1
+Plasmopara viticola lesion associated narnavirus 38,lonicera,1.0,1,1,1
+Plasmopara viticola lesion associated ourmia-like virus 35,lonicera,1.0,1,1,1
+Plasmopara viticola lesion associated ourmia-like virus 66,oxalis,1.0,1,1,1
+Plasmopara viticola lesion associated ourmia-like virus 7,aegopodium,1.0,1,1,1
+Plasmopara viticola lesion associated ourmia-like virus 86,batatas,1.0,1,1,1
+Plasmopara viticola lesion associated ourmia-like virus 89,lonicera,1.0,1,1,1
+Plasmopara viticola lesion-associated ormycovirus 5,urtica,1.0,1,1,1
+Podosphaera prunicola partitivirus 4,cocos,1.0,1,1,1
+Potato mop-top virus,allium tuberosum,1.0,4,4,4
+Potyvirus costus,tradescantia,1.0,1,1,1
+Potyvirus ornithogalitessellati,tradescantia,1.0,1,1,1
+Potyvirus plumpoxi,tradescantia,1.0,1,1,1
+Presleyvirus presley,allium tuberosum,1.0,4,4,4
+Primula vulgaris waikavirus,crataegus monogyna,1.0,1,1,1
+Prune dwarf virus,tolmiea_menziesii,1.0,1,1,1
+Rabbit luteovirus,ehretia microphylla,1.0,1,1,1
+Red clover enamovirus 1,ehretia microphylla,1.0,1,1,1
+Rhizoctonia magoulivirus 1,cestrum latifolium,1.0,1,1,1
+Rhizoctonia solani mitovirus 88,allium tuberosum,1.0,4,4,4
+Rhodiola cryptic virus 2,iris,1.0,1,1,1
+Rhodiola rosea amalgavirus 1,calopsis,1.0,1,1,1
+Rhynchosia yellow mosaic India virus,aegopodium,1.0,1,1,1
+Ripabiq virus,strelitzia,1.0,1,1,1
+Ripajun virus,strelitzia,1.0,1,1,1
+Ripakrox virus,strelitzia,1.0,1,1,1
+Ripamap virus,strelitzia,1.0,1,1,1
+Ripapryg virus,strelitzia,1.0,1,1,1
+Ripathur virus,strelitzia,1.0,1,1,1
+Ripojast virus,cercis,1.0,1,1,1
+Rosellinia necatrix megatotivirus 1,cocos,1.0,1,1,1
+Sanxia atyid shrimp virus 3,nepeta,1.0,1,1,1
+Sanya astro-like virus 1,carpinus betulus,1.0,1,1,1
+Sclerophthora macrospora virus A,urtica,1.0,1,1,1
+Sclerotinia botoulivirus 2,rubus idaeus,1.0,1,1,1
+Sclerotinia penoulivirus,lonicera,1.0,1,1,1
+Sclerotinia sclerotiorum botybirnavirus 2,lonicera,1.0,1,1,1
+Sclerotinia sclerotiorum hypovirus 2,ajuga reptans atropurpurea,1.0,1,1,1
+Sclerotinia sclerotiorum narnavirus 3,carpinus betulus,1.0,1,1,1
+Sclerotinia sclerotiorum ourmia-like virus 6,acer pseudo,1.0,1,1,1
+Scleroulivirus epsilonplasmoparae,fraxinus,1.0,1,1,1
+Sedum sarmentosum dicistroviridae,aegopodium,1.0,1,1,1
+Shahe narna-like virus 2,rosmarinus,1.0,1,1,1
+Shamrock chlorotic ringspot virus,oxalis,1.0,1,1,1
+Sida Brazil virus,nymphaea,1.0,1,1,1
+Sida golden mottle virus,nymphaea,1.0,1,1,1
+Siphoviridae sp. ctHip2,allium tuberosum,1.0,4,4,4
+Siphoviridae sp. ctJ0s2,allium tuberosum,1.0,4,4,4
+Siphoviridae sp. ctYBm1,allium tuberosum,1.0,4,4,4
+Sobelivirales sp.,carpinus betulus,1.0,1,1,1
+Soil-borne cereal mosaic virus,triticum aestivum,1.0,1,1,1
+Soil-borne wheat mosaic virus,triticum aestivum,1.0,1,1,1
+Sophora japonica powdery mildew-associated partitivirus,alnus glutinosa,1.0,1,1,1
+Sopivas virus,strelitzia,1.0,1,1,1
+Soybean-associated deltaflexivirus 1,lonicera,1.0,1,1,1
+Soymovirus maculaglycinis,ehretia microphylla,1.0,1,1,1
+Streptocarpus flower break virus,saint paulia,1.0,1,1,1
+Streptoglossa virus 1,ehretia microphylla,1.0,1,1,1
+Stylosanthes mosaic-associated virus 2,cestrum latifolium,1.0,1,1,1
+Suillus luteus mitovirus 5,awara,1.0,1,1,1
+Thrips tabaci associated iflavirus 1,momordica charanti,1.0,1,1,1
+Tomato black ring virus satellite RNA,fraxinus,1.0,1,1,1
+Tomato leaf curl Palampur virus,dioscorea alata,1.0,1,1,1
+Tomato mild mottle virus,solanmum melongena,1.0,1,1,1
+Tomato necrotic spot virus,cichorium intybus,1.0,1,1,1
+Trichosanthes cytorhabdovirus,sedum,1.0,1,1,1
+Tuatara cloaca-associated mymonavirus-1,cercis,1.0,1,1,1
+Turnip leaf roll virus,aegopodium,1.0,1,1,1
+Verticillium albo-atrum partitivirus-1,quercus rubra,1.0,1,1,1
+Watermelon bud necrosis orthotospovirus,cucumis melo,1.0,1,1,1
+Welwitschia mirabilis virus 2,amorphophallus  paeoniifolius,1.0,1,1,1
+Wenling zhaovirus-like virus 1,acer campestre,1.0,1,1,1
+Woodburn virus,lonicera,1.0,1,1,1
+Xiangshan Nyami-like virus,momordica charanti,1.0,1,1,1
+Yellow silver pine associated botourmia-like virus 28,calopsis,1.0,1,1,1
+Zhangzhou Parti tick virus 2,liriope,1.0,1,1,1
+Zukovirus phill,cercis,1.0,1,1,1
+Honeysuckle yellow vein virus,lonicera japonica,0.8939497812028935,5,4,4
+Myoviridae sp. ctCo31,allium tuberosum,0.8939497812028933,4,5,4
+Rahariannevirus raharianne,allium tuberosum,0.8939497812028926,4,5,4
+Noxifervirus noxifer,allium tuberosum,0.8939497812028923,4,5,4
+Citrus exocortis viroid,citrus latifolia,0.8322638146167576,6,6,5
+Betacarmovirus hibisci,hibiscus rosa,0.8160616959003757,2,3,2
+Skunavirus sv56301,hibiscus rosa,0.8160616959003757,2,3,2
+Poinsettia latent virus,euphorbia,0.8160616959003756,3,2,2
+Bidens mosaic virus,tropaeolum tuberosum,0.8160616959003753,3,2,2
+Sunflower ring blotch virus,tropaeolum tuberosum,0.8160616959003751,3,2,2
+Potyvirus yituberosi,allium tuberosum,0.8156247210090973,4,6,4
+Honeysuckle yellow vein betasatellite,lonicera japonica,0.7737704325591498,5,3,3
+Grapevine yellow speckle viroid 2,vitis vinifera,0.7737704325591488,5,3,3
+Physostegia chlorotic mottle virus,helleborus,0.7737704325591477,5,3,3
+Ornithogalum mosaic virus,gladiolus,0.7489327641408746,4,4,3
+Hop latent virus,humulus lupulus,0.7196792678494718,8,6,5
+Hydrangea chlorotic mottle virus,hydrangea,0.706730560472931,2,1,1
+Erysiphe necator associated ourmia-like virus 9,rubus idaeus,0.7067305604729309,1,2,1
+Skogvirus Skog,liriope,0.7067305604729309,1,2,1
+Alfalfa-associated picorna-like virus 1,citrus,0.7067305604729308,2,1,1
+Asparagus virus 1,phlox,0.7067305604729308,2,1,1
+Badnavirus phirubi,awara,0.7067305604729308,1,2,1
+Badnavirus phirubi,euphorbia tirucalli,0.7067305604729308,1,2,1
+Dactylorhiza cryptic virus 3,bromelia,0.7067305604729308,1,2,1
+Downy mildew lesion associated splipalmivirus 3,awara,0.7067305604729308,1,2,1
+Dracophyllum associated botourmia-like virus 63,cercis,0.7067305604729308,1,2,1
+Durnavirales sp.,citrus,0.7067305604729308,2,1,1
+Erysiphe necator associated negative-stranded RNA virus 19,citrus,0.7067305604729308,2,1,1
+Erysiphe necator associated ourmia-like virus 36,citrus,0.7067305604729308,2,1,1
+Erysiphe necator associated virga-like virus 1,citrus,0.7067305604729308,2,1,1
+Hordeum vulgare dicistro-like virus 1,phlox,0.7067305604729308,2,1,1
+Iflavirus sacbroodi,citrus,0.7067305604729308,2,1,1
+Nepovirus nicotianae,cyrtostachys renda,0.7067305604729308,1,2,1
+Ripasyt virus,citrus,0.7067305604729308,2,1,1
+Spiranthes mosaic virus 3,phlox,0.7067305604729308,2,1,1
+Tetranychus urticae-associated picorna-like virus 2,citrus,0.7067305604729308,2,1,1
+Tianjin Botou tick virus 4,citrus,0.7067305604729308,2,1,1
+Tolviot virus,citrus,0.7067305604729308,2,1,1
+Tomato chlorotic dwarf viroid,calibrachoa petunia,0.7067305604729308,1,2,1
+Wheat yellow mosaic virus,phlox,0.7067305604729308,2,1,1
+Badnavirus alphacolocalasiae,veitchia merrilii,0.7067305604729307,1,2,1
+Badnavirus venaribis,urtica dioca,0.7067305604729307,2,1,1
+Cannabis sativa partitivirus,urtica dioca,0.7067305604729307,2,1,1
+Capybara virus 7_cap1_536,urtica dioca,0.7067305604729307,2,1,1
+Clohesyomyces aquaticus partitivirus 1,urtica dioca,0.7067305604729307,2,1,1
+Colletotrichum associated negative-sense single-stranded RNA virus 2,quercus robur,0.7067305604729307,1,2,1
+Diaporthe negative-stranded RNA virus 1,chenopodium amaranticolor,0.7067305604729307,2,1,1
+Emberiza rustica Genomoviridae sp.,urtica dioca,0.7067305604729307,2,1,1
+Erysiphe necator associated narnavirus 2,oxalis,0.7067305604729307,1,2,1
+Erysiphe necator associated virga-like virus 14,urtica dioca,0.7067305604729307,2,1,1
+Erysiphe necator partitivirus 1,urtica dioca,0.7067305604729307,2,1,1
+Flumine tombus-like virus 45,urtica dioca,0.7067305604729307,2,1,1
+Hydrangea ringspot virus,hydrangea,0.7067305604729307,2,1,1
+Marine virus AFVG_25M494,calibrachoa petchoa petunia,0.7067305604729307,1,2,1
+Nanning Tombu tick virus 1,urtica dioca,0.7067305604729307,2,1,1
+Nerine latent virus,hippeastrum,0.7067305604729307,1,2,1
+Paysduvirus asiocola,urtica dioca,0.7067305604729307,2,1,1
+Penicillimonavirus gammaplasmopara,urtica dioca,0.7067305604729307,2,1,1
+Poaceae Liege partitivirus 15,urtica dioca,0.7067305604729307,2,1,1
+Podoviridae sp. ctbh1,solanum pseudocapsicum,0.7067305604729307,1,2,1
+Podoviridae sp. ctbj_2,calibrachoa petunia,0.7067305604729307,1,2,1
+Polybotosvirus Atuph07,prunus laurocerasus,0.7067305604729307,1,2,1
+Potato yellowing virus,cyrtostachys renda,0.7067305604729307,1,2,1
+Protoparvovirus carnivoran1,hibiscus rosa,0.7067305604729307,2,1,1
+Ripduovirus RP12,liriope,0.7067305604729307,1,2,1
+Sinsheimervirus phiX174,chenopodium quinoa,0.7067305604729307,1,2,1
+Skunavirus bIL170,hibiscus rosa,0.7067305604729307,2,1,1
+Tungrovirus oryzae,veitchia merrilii,0.7067305604729307,1,2,1
+Virus Chimp162,hibiscus rosa,0.7067305604729307,2,1,1
+Vitis cryptic virus,urtica dioca,0.7067305604729307,2,1,1
+Vo narna-like virus,solanum acroscopicum,0.7067305604729307,2,1,1
+Badnavirus alphacolocalasiae,spondias,0.7067305604729306,1,2,1
+Badnavirus maculadracaenae,dracaena sanderiana,0.7067305604729306,1,2,1
+Bremia lactucae associated splipalmivirus 1,streptocarpus,0.7067305604729306,1,2,1
+Chrocagosk virus,strelitzia,0.7067305604729306,1,2,1
+Colletotrichum associated negative-sense single-stranded RNA virus 2,urtica,0.7067305604729306,1,2,1
+Dactylorhiza cryptic virus 3,dracaena surculosa,0.7067305604729306,1,2,1
+Downy mildew lesion associated orfanplasmovirus 3,carpinus betulus,0.7067305604729306,1,2,1
+Downy mildew lesion associated splipalmivirus 44,cercis,0.7067305604729306,1,2,1
+Dracophyllum associated botourmia-like virus 63,prunus laurocerasus,0.7067305604729306,1,2,1
+Duamitovirus bevu1,saint paulia,0.7067305604729306,1,2,1
+Erysiphe necator associated flexivirus 1,carpinus betulus,0.7067305604729306,1,2,1
+Erysiphe necator associated ilar-like virus 1,ulmus dodoens,0.7067305604729306,2,1,1
+Erysiphe necator associated ourmia-like virus 101,cercis,0.7067305604729306,1,2,1
+Erysiphe necator associated polymycovirus 1,carpinus betulus,0.7067305604729306,1,2,1
+Erysiphe necator associated tombus-like virus 7,carpinus betulus,0.7067305604729306,1,2,1
+Fig leaf mottle-associated virus 1,ficus carica,0.7067305604729306,1,2,1
+Gaillardia latent virus,fagus sylvatica,0.7067305604729306,2,1,1
+Grapevine leafroll-associated virus 6,vitis,0.7067305604729306,2,1,1
+Grapevine pararetrovirus,streptocarpus,0.7067305604729306,1,2,1
+Hainan alphaflexivirus 2,echinacea purpurea,0.7067305604729306,1,2,1
+Humpback whale blow-associated circo-like virus 2,petchoa,0.7067305604729306,2,1,1
+Iresine viroid 1,portulaca,0.7067305604729306,2,1,1
+Megaviridae environmental sample,cercis,0.7067305604729306,1,2,1
+Nerine latent virus,tradescantia,0.7067305604729306,1,2,1
+Neurospora discreta partitivirus 3,vitis,0.7067305604729306,2,1,1
+Ophiovirus mirafioriense,lactuca sativa,0.7067305604729306,2,1,1
+Orthotospovirus alstroemerinecrosis,lactuca sativa,0.7067305604729306,2,1,1
+Orthotospovirus tomatomaculae,lactuca sativa,0.7067305604729306,2,1,1
+Ourmia-like virus sp.,lonicera,0.7067305604729306,1,2,1
+Pear alphapartitivirus,quercus rubra,0.7067305604729306,1,2,1
+Phabquatrovirus PHB04,spondias,0.7067305604729306,1,2,1
+Pseudostellaria heterophylla carlavirus 2,fagus sylvatica,0.7067305604729306,2,1,1
+Purivirus UFJFPfDIW6,lactuca sativa,0.7067305604729306,2,1,1
+Sacbrood virus,ulmus dodoens,0.7067305604729306,2,1,1
+Salix dasyclados secovirus,ulmus dodoens,0.7067305604729306,2,1,1
+Sanya fiers-like virus 4,corylus avellana,0.7067305604729306,2,1,1
+Sanya ochthera mantis Solinvi-like virus 1,ulmus dodoens,0.7067305604729306,2,1,1
+Sclerotinia deltaflexivirus 1,fagus sylvatica,0.7067305604729306,2,1,1
+Scottvirus scott,cercis,0.7067305604729306,1,2,1
+Skunavirus S0139,portulaca,0.7067305604729306,2,1,1
+Surrounding legume associated ilarvirus,ulmus dodoens,0.7067305604729306,2,1,1
+Sweetbriar rose curly top-associated virus,ulmus dodoens,0.7067305604729306,2,1,1
+Tonghua Totiv tick virus 1,corylus avellana,0.7067305604729306,2,1,1
+Tupanvirus deep ocean,cercis,0.7067305604729306,1,2,1
+Unuamitovirus crri4,carpinus betulus,0.7067305604729306,1,2,1
+Varicosavirus lactucae,lactuca sativa,0.7067305604729306,2,1,1
+Watermelon crinkle leaf-associated virus 2,urtica,0.7067305604729306,1,2,1
+Wuhivirus insecti,acer campestre,0.7067305604729306,1,2,1
+Abutilon theophrasti picorna-like virus,ulmus dodoens,0.7067305604729305,2,1,1
+Agapanthus tungrovirus,allium schoenoprasum,0.7067305604729305,1,2,1
+Alternaria alternata botybirnavirus 1,fraxinus,0.7067305604729305,1,2,1
+Alternaria alternata botybirnavirus 1,lonicera,0.7067305604729305,1,2,1
+Bakolyvirus simangalove,liriope,0.7067305604729305,1,2,1
+Bellamyvirus sp.,prunus serrulata,0.7067305604729305,2,1,1
+Blueberry latent virus,vaccinium corymbosum,0.7067305604729305,1,2,1
+Botrytis cinerea binarnavirus 1,lonicera,0.7067305604729305,1,2,1
+Cacao swollen shoot CD virus,musa,0.7067305604729305,2,1,1
+Calanoida sp. copepod associated circular virus,prunus serrulata,0.7067305604729305,2,1,1
+Chemarfal virus 114,prunus serrulata,0.7067305604729305,2,1,1
+Chemarfal virus 61,prunus serrulata,0.7067305604729305,2,1,1
+Citrus vein enation virus,ehretia microphylla,0.7067305604729305,1,2,1
+Cohcovirus hiberniae,prunus serrulata,0.7067305604729305,2,1,1
+Crassvirales sp.,prunus serrulata,0.7067305604729305,2,1,1
+Dasheen mosaic virus,amorphophallus  paeoniifolius,0.7067305604729305,1,2,1
+Dioscorea bacilliform AL virus,eucomis,0.7067305604729305,1,2,1
+Epiphyllum badnavirus 1,austrocylindropuntia subulata,0.7067305604729305,1,2,1
+Erysiphe necator associated narnavirus 51,acer pseudo,0.7067305604729305,1,2,1
+Erysiphe necator associated negative-stranded RNA virus 9,fraxinus,0.7067305604729305,1,2,1
+Erysiphe necator associated ourmia-like virus 103,fraxinus,0.7067305604729305,1,2,1
+Erysiphe necator associated ourmia-like virus 50,aegopodium,0.7067305604729305,1,2,1
+Erysiphe necator associated ourmia-like virus 65,fraxinus,0.7067305604729305,1,2,1
+Erysiphe necator associated ourmia-like virus 98,fraxinus,0.7067305604729305,1,2,1
+Erysiphe necator associated sobemo-like virus 1,ulmus dodoens,0.7067305604729305,2,1,1
+Flaumdravirus KIL4,stephanotis,0.7067305604729305,2,1,1
+Grapevine-associated mycobunya-like virus 4,ulmus dodoens,0.7067305604729305,2,1,1
+Haifavirus tim68,prunus serrulata,0.7067305604729305,2,1,1
+Hortaea werneckii totivirus 1,prunus serrulata,0.7067305604729305,2,1,1
+Hymenopteran phasma-related virus OKIAV233,ulmus dodoens,0.7067305604729305,2,1,1
+Monilinia narnavirus H,fraxinus,0.7067305604729305,1,2,1
+Monilinia narnavirus H,lonicera,0.7067305604729305,1,2,1
+Odontoglossum ringspot virus,peperomia,0.7067305604729305,1,2,1
+Paris mitovirus 1,rhodondendron indicum,0.7067305604729305,2,1,1
+Pea associated mitovirus 2,carpinus betulus,0.7067305604729305,1,2,1
+Pear alphapartitivirus,ilex aquifolia,0.7067305604729305,1,2,1
+Pineapple bacilliform CO virus,maxillaria,0.7067305604729305,1,2,1
+Plant associated tombus-like virus 1,stephanotis,0.7067305604729305,2,1,1
+Plasmopara viticola lesion associated narnavirus 20,fraxinus,0.7067305604729305,1,2,1
+Plasmopara viticola lesion associated orfanplasmovirus 3,fraxinus,0.7067305604729305,1,2,1
+Plum pox virus,aegopodium,0.7067305604729305,1,2,1
+Podoviridae sp. ctbh1,peperomia,0.7067305604729305,1,2,1
+Quaranjavirus chadense,ulmus dodoens,0.7067305604729305,2,1,1
+Red currant associated reovirus,ulmus dodoens,0.7067305604729305,2,1,1
+Rhizoctonia solani bunya/phlebo-like virus 1,ulmus dodoens,0.7067305604729305,2,1,1
+Sanya narnavirus 11,fraxinus,0.7067305604729305,1,2,1
+Serangoonvirus essarone,prunus serrulata,0.7067305604729305,2,1,1
+T4virus environmental sample,stephanotis,0.7067305604729305,2,1,1
+Tabernariusvirus tabernarius,petunia petchoa,0.7067305604729305,2,1,1
+Tomato torrado virus,physalis ixocarpa,0.7067305604729305,1,2,1
+Unuamitovirus crri4,acer pseudo,0.7067305604729305,1,2,1
+Wuhivirus insecti,acer pseudo,0.7067305604729305,1,2,1
+Alfalfa leaf curl virus,anemone,0.7067305604729304,1,2,1
+Carrot red leaf luteovirus associated RNA,s. torvum,0.7067305604729304,2,1,1
+Crinivirus sp.,rhodondendron indicum,0.7067305604729304,2,1,1
+Dioscorea bacilliform AL virus,aegopodium,0.7067305604729304,1,2,1
+Erigeron annuus picorna-like virus,cucumis,0.7067305604729304,1,2,1
+Erysiphe necator associated abispo virus 6,rubus idaeus,0.7067305604729304,1,2,1
+Flyfo microvirus Tbat2_93,feijoa sellowiana,0.7067305604729304,2,1,1
+Monilinia fructicola mitovirus 11,rhodondendron indicum,0.7067305604729304,2,1,1
+Mulberry crinivirus,rhodondendron indicum,0.7067305604729304,2,1,1
+Persimmon circular DNA virus,schefflera arboricola,0.7067305604729304,2,1,1
+Phomopsis vexans endornavirus 1,rhodondendron indicum,0.7067305604729304,2,1,1
+Pueraria lobata-associated crinivirus,rhodondendron indicum,0.7067305604729304,2,1,1
+Satsuma dwarf virus,yucca,0.7067305604729304,2,1,1
+Sclerotinia sclerotiorum hypovirus 8-WX1,rhodondendron indicum,0.7067305604729304,2,1,1
+Sclerotinia sclerotiorum hypovirus 8-WX2,rhodondendron indicum,0.7067305604729304,2,1,1
+Simian immunodeficiency virus,polyscias balfouriana,0.7067305604729304,1,2,1
+Siphoviridae sp. ctBLh2,musa,0.7067305604729304,2,1,1
+Taro bacilliform CH virus,aegopodium,0.7067305604729304,1,2,1
+Taro bacilliform CH virus,alocasia,0.7067305604729304,1,2,1
+Wild tomato mosaic virus,s. torvum,0.7067305604729304,2,1,1
+Agapanthus tungrovirus,monstera,0.7067305604729303,1,2,1
+Apis mellifera associated microvirus 22,asparagus officinalis,0.7067305604729303,2,1,1
+Hubei reo-like virus 5,heracleum spondyllium,0.7067305604729303,1,2,1
+Hubei tombus-like virus 1,a rosa,0.7067305604729303,1,2,1
+Pueraria virus A,begonia,0.7067305604729303,2,1,1
+Taro bacilliform virus,begonia,0.7067305604729303,2,1,1
+Vaccinia virus,bromelia,0.7067305604729303,1,2,1
+Barley yellow dwarf virus MAV,lolium perenne,0.7067305604729301,2,1,1
+Black grass cryptic virus 2,cocos,0.7067305604729301,1,2,1
+Escherichia virus PGT2,serissa,0.7067305604729301,2,1,1
+Lilac chlorotic ringspot-associated emaravirus,serissa,0.7067305604729301,2,1,1
+Lolium perenne virus 1,lolium perenne,0.7067305604729301,2,1,1
+Medicago sativa alphapartitivirus 1,lolium perenne,0.7067305604729301,2,1,1
+Megavirus chiliensis,lilium yelloween,0.7067305604729301,1,2,1
+Quinoa-associated deltapartitivirus 2,asparagus officinalis,0.7067305604729301,2,1,1
+Rhodiola cryptic virus 1,asparagus officinalis,0.7067305604729301,2,1,1
+Salmonella virus FSL SP-058,rosa,0.7067305604729301,2,1,1
+Vaccinia virus,vanda hybride,0.7067305604729301,1,2,1
+Actinidia emaravirus 2,tobrfv,0.70673056047293,2,1,1
+Aspergillus lentulus narnavirus 1,oxalis,0.70673056047293,1,2,1
+Badu phasivirus,lolium perenne,0.70673056047293,2,1,1
+Beihai levi-like virus 5,lolium perenne,0.70673056047293,2,1,1
+Hubei levi-like virus 1,lolium perenne,0.70673056047293,2,1,1
+Hubei levi-like virus 11,lolium perenne,0.70673056047293,2,1,1
+Hubei reo-like virus 5,oxalis,0.70673056047293,1,2,1
+Plasmopara viticola lesion associated ourmia-like virus 22,lonicera,0.70673056047293,1,2,1
+Rice black streaked dwarf virus,lolium perenne,0.70673056047293,2,1,1
+Ti ringspot-associated emaravirus,tobrfv,0.70673056047293,2,1,1
+Abutilon mosaic virus,abutilon,0.7067305604729299,2,1,1
+Beauveria bassiana partitivirus 3,eremurus himalaicus,0.7067305604729299,2,1,1
+Blueberry fruit drop associated virus,hylocereus,0.7067305604729299,1,2,1
+Blueberry fruit drop associated virus,rosa corymbifera laxa,0.7067305604729299,1,2,1
+Botryosphaeria dothidea narnavirus 1,eremurus himalaicus,0.7067305604729299,2,1,1
+Epicoccum nigrum ourmia-like virus 1,rosa,0.7067305604729299,2,1,1
+Erysiphe necator associated mitovirus 10,rosa,0.7067305604729299,2,1,1
+Fusarium sacchari alphavirus-like virus 1,eremurus himalaicus,0.7067305604729299,2,1,1
+Grapevine fanleaf virus,campanula,0.7067305604729299,1,2,1
+Kaumoebavirus,eremurus himalaicus,0.7067305604729299,2,1,1
+Klebsiella virus KpV475,rosa,0.7067305604729299,2,1,1
+Mint virus 1,rosa,0.7067305604729299,2,1,1
+Ourmiavirus sp.,rosa,0.7067305604729299,2,1,1
+Phoma matteucciicola ourmia-like virus 1,rosa,0.7067305604729299,2,1,1
+Phomopsis vexans RNA virus,rosa,0.7067305604729299,2,1,1
+Plasmopara viticola lesion associated mitovirus 21,cucumis,0.7067305604729299,1,2,1
+Plasmopara viticola lesion associated mitovirus 49,cucumis,0.7067305604729299,1,2,1
+Plasmopara viticola lesion associated narnavirus 5,rosa,0.7067305604729299,2,1,1
+Plasmopara viticola lesion associated ourmia-like virus 18,rosa,0.7067305604729299,2,1,1
+Plasmopara viticola lesion associated ourmia-like virus 20,chamaerops,0.7067305604729299,1,2,1
+Rose rosette emaravirus,eremurus himalaicus,0.7067305604729299,2,1,1
+Sclerotinia homoeocarpa mitovirus,rosa,0.7067305604729299,2,1,1
+Yam latent virus,rosa,0.7067305604729299,2,1,1
+Apple mosaic virus,salvia,0.7067305604729298,2,1,1
+Banana streak UA virus,vanda,0.7067305604729298,1,2,1
+Cactus mild mottle virus,cereus,0.7067305604729298,1,2,1
+Camellia ringspot associated virus 2,wisteria,0.7067305604729298,2,1,1
+Penicillium spinulosum metavirus 1,abutilon,0.7067305604729298,2,1,1
+Penicillium waksmanii metavirus 1,abutilon,0.7067305604729298,2,1,1
+Pyricularia oryzae ourmia-like virus 2,abutilon,0.7067305604729298,2,1,1
+Rose cryptic virus 1,salvia,0.7067305604729298,2,1,1
+Caucasus prunus virus,narcissus,0.7067305604729297,2,1,1
+Rice yellow stunt nucleorhabdovirus,yacon,0.7067305604729297,2,1,1
+DNA virus sp.,petunia petchoa,0.7063533374124428,2,4,2
+Metrivirus ME3,petunia petchoa,0.7063533374124424,2,4,2
+Ambrosia asymptomatic virus 2 UKM-2007,dahlia,0.7063533374124419,4,2,2
+Mint vein banding-associated virus,mentha,0.7063533374124419,4,2,2
+Yellow silver pine badnavirus 5,ficus microcarpa,0.6692684927114609,5,4,3
+Ophiovirus ranunculi,hoya,0.6692684927114603,5,4,3
+Ranunculus white mottle virus_hele,hoya,0.6692684927114603,5,4,3
+Bemisia tabaci dicistro-like virus 1,snsv pt ilar,0.6656005685856431,3,3,2
+Cotton leaf curl Gezira virus,lavatera,0.6543948811460852,39,21,19
+Cytorhabdovirus lactucamaculante,ficus microcarpa,0.6314444114317863,5,2,2
+Rhododendron betaflexivirus 1,ficus microcarpa,0.631444411431786,5,2,2
+Yam asymptomatic virus 1,stephanotis,0.631444411431786,2,5,2
+Erysiphe necator associated narnavirus 38,vitis vinifera,0.6314444114317856,5,2,2
+Plasmopara viticola lesion associated mitovirus 20,vitis vinifera,0.6314444114317856,5,2,2
+Erysiphales ourmia-like virus 1,vitis vinifera,0.6314444114317855,5,2,2
+Moriarty virus,vitis vinifera,0.6314444114317855,5,2,2
+Citrus blight-associated pararetrovirus,allium tuberosum,0.6304273423147976,4,10,4
+Piper DNA virus 2,paeonia,0.6217845659163983,8,8,5
+Mulberry badnavirus 1,humulus lupulus,0.6107381321794809,8,3,3
+Citrus dwarfing viroid,citrus latifolia,0.6104100518995883,6,4,3
+Cotton leaf curl Gezira betasatellite,lavatera,0.593745411712277,39,18,16
+Leek yellow stripe virus,tradescantia,0.5767357397241633,1,3,1
+Apple rubbery wood virus 1,cymbidium,0.576735739724163,3,1,1
+Arceuthobium sichuanense virus 6,cymbidium,0.576735739724163,3,1,1
+Badnavirus maculasmallanthi,chrysanthemum,0.576735739724163,3,1,1
+Comovirus siliquae,phaseolus vulgaris,0.576735739724163,3,1,1
+Diaporthe helianthi tymovirus 1,chrysanthemum,0.576735739724163,3,1,1
+Pinus nigra virus 1,dracaena surculosa,0.576735739724163,1,3,1
+Badnavirus venavitis,urtica,0.5767357397241629,1,3,1
+Erysiphe necator associated mitovirus 24,allium schoenoprasum,0.5767357397241629,1,3,1
+Acremonium magoulivirus,fraxinus,0.5767357397241628,1,3,1
+Badnavirus venavitis,prunus serotina,0.5767357397241628,1,3,1
+Clover yellow mosaic virus,spondias,0.5767357397241628,1,3,1
+Cucumber green mottle mosaic virus,calibrachoa petchoa petunia,0.5767357397241628,1,3,1
+Erysiphe necator associated deltaflexivirus 2,fraxinus,0.5767357397241628,1,3,1
+Erysiphe necator associated ourmia-like virus 47,fraxinus,0.5767357397241628,1,3,1
+Jujube associated badnavirus,cymbidium,0.5767357397241628,3,1,1
+Pepper cryptic virus 1,quercus robur,0.5767357397241628,1,3,1
+Soybean thrips tombus-like virus 6,sorbus aucuparia,0.5767357397241628,1,3,1
+Tombusviridae sp.,quercus rubra,0.5767357397241628,1,3,1
+Amalgavirus allii,allium cepa,0.5767357397241627,3,1,1
+Antsirabevirus antsirabe,snsv pt ilar,0.5767357397241627,3,1,1
+Aspergillus fumigatus narnavirus 2,prunus laurocerasus,0.5767357397241627,1,3,1
+Badnavirus decoloratiovitis,awara,0.5767357397241627,1,3,1
+Badnavirus vitis,veitchia merrilii,0.5767357397241627,1,3,1
+Banana streak UI virus,amorphophallus  paeoniifolius,0.5767357397241627,1,3,1
+Blackberry virus Z,snsv pt ilar,0.5767357397241627,3,1,1
+Bufivirus UC1,rosmarinus,0.5767357397241627,1,3,1
+Dioscovirus dioscoreae,chamaedorea elegans,0.5767357397241627,1,3,1
+Erysiphe necator associated tombus-like virus 3,acer pseudo,0.5767357397241627,1,3,1
+Erysiphe necator associated tombus-like virus 3,carpinus betulus,0.5767357397241627,1,3,1
+Exceevirus Xc38,allium cepa,0.5767357397241627,3,1,1
+Grapevine badna FI virus,pachypodium,0.5767357397241627,1,3,1
+Grapevine badna FI virus,veitchia merrilii,0.5767357397241627,1,3,1
+Grapevine partitivirus,acer pseudo,0.5767357397241627,1,3,1
+Henan betaflexivirus 2,allium cepa,0.5767357397241627,3,1,1
+Minunavirus Min1,snsv pt ilar,0.5767357397241627,3,1,1
+Onion yellow dwarf virus,allium cepa,0.5767357397241627,3,1,1
+Penicillium brevicompactum ssRNA virus 1,fraxinus,0.5767357397241627,1,3,1
+Pinus nigra virus 1,hylocereus,0.5767357397241627,1,3,1
+Plasmopara viticola lesion associated orfanplasmovirus 1,urtica,0.5767357397241627,1,3,1
+Potyvirus cepae,allium cepa,0.5767357397241627,3,1,1
+Shallot latent virus,allium cepa,0.5767357397241627,3,1,1
+Shallot yellow stripe virus,allium cepa,0.5767357397241627,3,1,1
+Tungrovirus agapanthi,pachypodium,0.5767357397241627,1,3,1
+Turnip curly top virus,allium cepa,0.5767357397241627,3,1,1
+Amalgavirus cepae,allium cepa,0.5767357397241626,3,1,1
+Apple rubodvirus 2,bougainvillea,0.5767357397241626,1,3,1
+Aspergillus fumigatus narnavirus 2,awara,0.5767357397241626,1,3,1
+Badnavirus betacolocalasiae,nymphaea,0.5767357397241626,1,3,1
+Bean yellow mosaic virus,aegopodium,0.5767357397241626,1,3,1
+Botrytis cinerea mitovirus 6,euphorbia,0.5767357397241626,3,1,1
+Botrytis cinerea mitovirus 9,euphorbia,0.5767357397241626,3,1,1
+Dioscovirus dioscoreae,veitchia merrilii,0.5767357397241626,1,3,1
+Panax cryptic virus 4,lonicera,0.5767357397241626,1,3,1
+Panax cryptic virus 4,quercus robur,0.5767357397241626,1,3,1
+Paramecium bursaria Chlorella virus 1,allium cepa,0.5767357397241626,3,1,1
+Tungrovirus agapanthi,awara,0.5767357397241626,1,3,1
+Weivirus-like virus sp.,fraxinus,0.5767357397241626,1,3,1
+Zucchini yellow mosaic virus,cucumis melo,0.5767357397241626,1,3,1
+Badnavirus betacolocalasiae,veitchia merrilii,0.5767357397241625,1,3,1
+Badnavirus decoloratiovitis,pittosporum,0.5767357397241625,1,3,1
+Badnavirus vitis,nymphaea,0.5767357397241625,1,3,1
+Chrysanthemum chlorotic mottle viroid,chrysanthemum,0.5767357397241625,3,1,1
+Penicillium vanoranjei associated RNA virus 1,liriope,0.5767357397241625,1,3,1
+Piper yellow mottle virus,amorphophallus  paeoniifolius,0.5767357397241625,1,3,1
+Sclerotinia sclerotiorum narnavirus 2,fraxinus,0.5767357397241625,1,3,1
+Soybean chlorotic blotch virus,solanum aethiopicum,0.5767357397241625,3,1,1
+Soybean thrips ourmia-like virus 1,lonicera,0.5767357397241625,1,3,1
+Tick-associated circular DNA virus,calibrachoa petunia,0.5767357397241625,1,3,1
+Badnavirus betacolocalasiae,pittosporum,0.5767357397241624,1,3,1
+Bundaberg bee virus 2,rosmarinus,0.5767357397241624,1,3,1
+Carnation etched ring virus,aegopodium,0.5767357397241624,1,3,1
+Clover yellow mosaic virus,hippeastrum,0.5767357397241624,1,3,1
+CrAss-like virus sp.,calibrachoa petchoa petunia,0.5767357397241624,1,3,1
+Crucivirus-427,petunia en calibrachoa,0.5767357397241624,3,1,1
+Erysiphe necator mitovirus 1,cichorium intybus,0.5767357397241624,1,3,1
+Grapevine virus A,ilex serrata,0.5767357397241624,1,3,1
+Hibiscus bacilliform virus GD1,viburnum,0.5767357397241624,1,3,1
+Isatis caulimovirus A,aegopodium,0.5767357397241624,1,3,1
+Plasmopara viticola lesion associated orfanplasmovirus 1,fraxinus,0.5767357397241624,1,3,1
+Soybean leaf-associated mitovirus 1,fraxinus,0.5767357397241624,1,3,1
+Soybean thrips ourmia-like virus 1,fraxinus,0.5767357397241624,1,3,1
+Staphylococcus virus Andhra,hippeastrum,0.5767357397241624,1,3,1
+Tobacco ringspot virus,rosmarinus,0.5767357397241624,1,3,1
+Bean common mosaic virus,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Brassica napus RNA virus 1,ajuga reptans atropurpurea,0.5767357397241623,1,3,1
+Calla lily latent virus,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Camellia cryptic virus 2,iris,0.5767357397241623,1,3,1
+Carrot red leaf virus,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Ceratobium mosaic virus,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Changjiang tombus-like virus 3,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Groundnut rosette virus,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Hubei tombus-like virus 2,lonicera,0.5767357397241623,1,3,1
+Sugarcane yellow leaf virus,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Torilis crimson leaf virus,tropaeolum tuberosum,0.5767357397241623,3,1,1
+Agaricus bisporus virus 16,lilium maldano rose,0.5767357397241621,1,3,1
+Beet curly top virus,beta vulgaris,0.5767357397241621,3,1,1
+Beta vulgaris satellite virus 1B,beta vulgaris,0.5767357397241621,3,1,1
+Erysiphe necator associated ourmia-like virus 100,beta vulgaris,0.5767357397241621,3,1,1
+Erysiphe necator ourmia-like virus 82,momordica charanti,0.5767357397241621,1,3,1
+Lily virus A,lilium,0.5767357397241621,3,1,1
+Plasmopara viticola lesion associated ourmia-like virus 71,beta vulgaris,0.5767357397241621,3,1,1
+Potato virus T,lilium,0.5767357397241621,3,1,1
+Sewage-associated gemycircularvirus 1,lilium,0.5767357397241621,3,1,1
+Thrips tabaci associated reovirus 1,beta vulgaris,0.5767357397241621,3,1,1
+Aeonium ringspot virus,iris germanica,0.576735739724162,3,1,1
+Hubei Beny-like virus 1,cocos,0.576735739724162,1,3,1
+Hubei tombus-like virus 13,nepovirus,0.576735739724162,3,1,1
+Lettuce ring necrosis ophiovirus,iris germanica,0.576735739724162,3,1,1
+Mirafiori lettuce big-vein ophiovirus,iris germanica,0.576735739724162,3,1,1
+Persimmon cryptic virus,iris germanica,0.576735739724162,3,1,1
+Zucchini yellow mosaic virus,cestrum latifolium,0.576735739724162,1,3,1
+Zucchini yellow mosaic virus,cucurbita pepo xanthous,0.576735739724162,1,3,1
+Erysiphe necator mitovirus 2,cucumis,0.5767357397241619,1,3,1
+Fragaria chiloensis cryptic virus,lonicera,0.5767357397241619,1,3,1
+Rubus yellow net virus,rubus idaeus,0.5767357397241619,1,3,1
+Water chestnut soymovirus 1,rhoeo spathacea,0.5767357397241619,1,3,1
+Weivirus-like virus sp.,cucumis,0.5767357397241619,1,3,1
+Yacon necrotic mottle virus,gerbera,0.5767357397241619,1,3,1
+Carnation etched ring virus,heracleum spondyllium,0.5767357397241618,1,3,1
+Hibiscus bacilliform virus GD1,heracleum spondyllium,0.5767357397241618,1,3,1
+Hubei Beny-like virus 1,lilium maldano rose,0.5767357397241618,1,3,1
+Jujube mosaic-associated virus,oxalis,0.5767357397241618,1,3,1
+Botrytis cinerea binarnavirus 2,chamaerops,0.5767357397241617,1,3,1
+Pantoea virus AAS23,beta vulgaris,0.5767357397241617,3,1,1
+Pelargonium vein banding virus,eucomis,0.5767357397241617,1,3,1
+Penicillium roseopurpureum negative ssRNA virus 1,chamaerops,0.5767357397241617,1,3,1
+Yacon necrotic mottle virus,cichorium intybus,0.5767357397241617,1,3,1
+Apple-associated luteovirus,hemerocallis,0.5761192437608688,6,2,2
+Cacao swollen shoot Ghana L virus,schefflera arboricola,0.576119243760868,2,6,2
+Grapevine badnavirus 1,schefflera arboricola,0.576119243760868,2,6,2
+PNG bee virus 4,citrus latifolia,0.576119243760868,6,2,2
+Citrus endogenous pararetrovirus,citrus latifolia,0.5761192437608679,6,2,2
+Iflavirus aladeformis,aplpv pt ilar,0.5761192437608675,6,2,2
+Victoria bee virus 2,aplpv pt ilar,0.5761192437608674,6,2,2
+Allium deltapartitivirus,allium cepa,0.5758107503648772,3,4,2
+Camellia oleifera amalgavirus 1,paeonia lactiflora,0.575810750364877,4,3,2
+Bean yellow mosaic virus,gladiolus,0.5758107503648764,4,3,2
+Strawberry latent ringspot virus,mentha,0.5758107503648762,4,3,2
+Strawberry latent ringspot virus satellite RNA,mentha,0.5758107503648761,4,3,2
+Blackberry virus F,passiflora,0.5742598581337002,8,6,4
+Cowpea mild mottle virus,hibiscus syriacus,0.5622758807581602,14,8,6
+Cauliflower mosaic virus,delphinium,0.5595282225307762,7,22,7
+Cacao swollen shoot Ghana L virus,schefflera,0.5450879464148439,5,6,3
+Hop stunt viroid,vitis vinifera,0.5450879464148436,5,6,3
+Rhizophagus diaphanum mitovirus 1,w lillium,0.533097468002798,7,2,2
+Hainan betaflexivirus,hibiscus syriacus,0.5316625249182985,14,4,4
+Phomopsis longicolla RNA virus 1,humulus lupulus,0.5308006572922574,8,7,4
+Green Sichuan pepper vein clearing-associated virus,passiflora,0.5276843693163884,8,4,3
+Endogenous retrovirus sp.,passiflora,0.5276843693163883,8,4,3
+Birch leaf roll-associated virus,passiflora,0.5276843693163881,8,4,3
+Citrus viroid VI,hibiscus rosa sinensis,0.5246530921776237,15,19,9
+Sweet potato badnavirus A,ipomaea batatas,0.5154650840054219,33,9,9
+Poinsettia mosaic virus,euphorbia,0.5144691586851607,3,5,2
+Rubus yellow net virus,rubus,0.5144691586851605,5,3,2
+Erysiphe necator mitovirus 1,vitis vinifera,0.5144691586851603,5,3,2
+Cacao swollen shoot Ghana R virus,schefflera,0.5144691586851602,5,3,2
+Brassica napus RNA virus 1,ajuga reptans,0.5144691586851601,5,3,2
+Grapevine rupestris vein feathering virus,ficus microcarpa,0.5040195529046743,5,7,3
+Dahlia mosaic virus,delphinium,0.5001403218181437,7,14,5
+Cressdnaviricota sp.,liriope,0.4992014900414209,1,4,1
+Ornithogalum mosaic virus,iris,0.4992014900414208,1,4,1
+Cacao swollen shoot virus,pittosporum,0.49920149004142067,1,4,1
+Alfalfa mosaic virus,aegopodium,0.4992014900414206,1,4,1
+Cressdnaviricota sp.,pittosporum,0.4992014900414206,1,4,1
+DNA virus sp.,fraxinus,0.4992014900414206,1,4,1
+Papaya ringspot virus,cucumis melo,0.4992014900414206,1,4,1
+Allium deltapartitivirus,urtica,0.49920149004142056,1,4,1
+Alloteropsis cryptic virus 2,gladiolus,0.49920149004142056,4,1,1
+Ambrosia asymptomatic virus 4 UKM-2007,dahlia,0.49920149004142056,4,1,1
+Arenavirus sp.,lillium,0.49920149004142056,4,1,1
+Badnavirus epsilonvirgamusae,dahlia,0.49920149004142056,4,1,1
+Badnavirus tessellotheobromae,dahlia,0.49920149004142056,4,1,1
+Chaetfec virus UA24_244,lillium,0.49920149004142056,4,1,1
+Cucurbit aphid-borne yellows virus,cucumis melo,0.49920149004142056,1,4,1
+Cytorhabdovirus fragariarugosus,pelargonium,0.49920149004142056,4,1,1
+Erysiphe necator associated ourmia-like virus 35,momordica charanti,0.49920149004142056,1,4,1
+Erysiphe necator associated partitivirus 3,fraxinus,0.49920149004142056,1,4,1
+Farahnazvirus ISF9,lillium,0.49920149004142056,4,1,1
+Marine virus AFVG_250M134,lillium,0.49920149004142056,4,1,1
+Medicago cytorhabdovirus A,pelargonium,0.49920149004142056,4,1,1
+Okra mosaic virus,solanum macrocarpon,0.49920149004142056,4,1,1
+Woodruffvirus YDN12,lillium,0.49920149004142056,4,1,1
+Yunnan sediment hypo-like virus,lillium,0.49920149004142056,4,1,1
+Bemisia tabaci picorna-like virus 1,aeschynanthus,0.4992014900414205,4,1,1
+Circoviridae sp.,spondias,0.4992014900414205,1,4,1
+Dioscorea nummularia-associated virus,beaucarnea,0.4992014900414205,4,1,1
+Erysiphe necator associated chryso-like virus 1,aeschynanthus,0.4992014900414205,4,1,1
+Erysiphe necator associated chrysovirus 3,aeschynanthus,0.4992014900414205,4,1,1
+Erysiphe necator associated flexivirus 2,echinacea purpurea,0.4992014900414205,1,4,1
+Erysiphe necator associated narnavirus 46,lillium,0.4992014900414205,4,1,1
+Erysiphe necator associated tombus-like virus 9,aeschynanthus,0.4992014900414205,4,1,1
+Impatiens necrotic spot orthotospovirus,hippeastrum,0.4992014900414205,1,4,1
+Maize-associated retrovirus 1,aeschynanthus,0.4992014900414205,4,1,1
+Mungbean yellow mosaic India virus,beaucarnea,0.4992014900414205,4,1,1
+Orf virus,alnus glutinosa,0.4992014900414205,1,4,1
+Orthodiscovirus missouriense,streptocarpus,0.4992014900414205,1,4,1
+Pandanus badnavirus,solanum macrocarpon,0.4992014900414205,4,1,1
+Plasmopara viticola lesion associated ourmia-like virus 78,aeschynanthus,0.4992014900414205,4,1,1
+Turnip yellows virus,ceropegia,0.4992014900414205,1,4,1
+Xiamenvirus RDJL1,lillium,0.4992014900414205,4,1,1
+Alfalfa mosaic virus,ilex serrata,0.49920149004142045,1,4,1
+Angelica bushy stunt virus,aegopodium,0.49920149004142045,1,4,1
+Angelica bushy stunt virus,campanula,0.49920149004142045,1,4,1
+Boehmeria nivea secovirus,dracaena,0.49920149004142045,4,1,1
+Cavemovirus deltaepiphylli,solanum macrocarpon,0.49920149004142045,4,1,1
+Equine infectious anemia virus,dracaena,0.49920149004142045,4,1,1
+Orf virus,alstroemeria,0.49920149004142045,1,4,1
+Phaseolus vulgaris alphaendornavirus 1,calibrachoa petchoa petunia,0.49920149004142045,1,4,1
+Angelica bushy stunt virus,hylocereus,0.4992014900414204,1,4,1
+Cacao swollen shoot virus,nymphaea,0.4992014900414204,1,4,1
+Capsicum chlorosis virus,rhoeo spathacea,0.4992014900414204,1,4,1
+Caulimovirus tessellobrassicae,dracaena sanderiana,0.4992014900414204,1,4,1
+Metrivirus ME3,calibrachoa petchoa petunia,0.4992014900414204,1,4,1
+Orf virus,chamaedorea elegans,0.4992014900414204,1,4,1
+Plasmopara viticola lesion associated ourmia-like virus 75,lonicera,0.4992014900414204,1,4,1
+Snake River alfalfa virus,vicia faba,0.4992014900414204,4,1,1
+Virus sp.,dracaena,0.4992014900414204,4,1,1
+Atractylodes mild mottle virus,beaucarnea,0.49920149004142034,4,1,1
+Bastillevirus evoli,gladiolus,0.49920149004142034,4,1,1
+Betafusarivirus rhizoctoniae,gladiolus,0.49920149004142034,4,1,1
+Binucleate Rhizoctonia mitovirus 8,gladiolus,0.49920149004142034,4,1,1
+Caudovirales sp. gcode 4,gladiolus,0.49920149004142034,4,1,1
+Caulimovirus tessellobrassicae,urtica,0.49920149004142034,1,4,1
+Ceratobasidium endornavirus C,gladiolus,0.49920149004142034,4,1,1
+Chiangmaivirus RSL2,gladiolus,0.49920149004142034,4,1,1
+Chronazork virus,carpinus betulus,0.49920149004142034,1,4,1
+Chronazork virus,cercis,0.49920149004142034,1,4,1
+Citrovirus coptotermitis,gladiolus,0.49920149004142034,4,1,1
+Cotonvirus japonicus,gladiolus,0.49920149004142034,4,1,1
+Dracaena mottle virus,orchidacea,0.49920149004142034,1,4,1
+Drosophila melanogaster nudivirus A,paeonia lactiflora,0.49920149004142034,4,1,1
+Duamitovirus rhso31,gladiolus,0.49920149004142034,4,1,1
+EBPR podovirus 1,gladiolus,0.49920149004142034,4,1,1
+Flumine parvovirus 10,gladiolus,0.49920149004142034,4,1,1
+Fusarium circinatum mitovirus 2,gladiolus,0.49920149004142034,4,1,1
+Fusarium oxysporum mitovirus 1,gladiolus,0.49920149004142034,4,1,1
+Fusarium proliferatum mitovirus 2,gladiolus,0.49920149004142034,4,1,1
+Kisquattuordecimvirus FLC5,gladiolus,0.49920149004142034,4,1,1
+Kisquattuordecimvirus KS14,gladiolus,0.49920149004142034,4,1,1
+Kummerowia striata gokushovirus,gladiolus,0.49920149004142034,4,1,1
+Perisivirus Tb,gladiolus,0.49920149004142034,4,1,1
+Prunus latent virus,beaucarnea,0.49920149004142034,4,1,1
+Rhizoctonia solani mitovirus 108,gladiolus,0.49920149004142034,4,1,1
+Rhizoctonia solani mitovirus 118,gladiolus,0.49920149004142034,4,1,1
+Rhizoctonia solani mitovirus 48,gladiolus,0.49920149004142034,4,1,1
+Risjevirus RSJ2,gladiolus,0.49920149004142034,4,1,1
+Saccharomyces 23S RNA narnavirus,s. lycopersicum,0.49920149004142034,4,1,1
+Siphoviridae environmental samples,gladiolus,0.49920149004142034,4,1,1
+Siphoviridae sp. ctxc31,gladiolus,0.49920149004142034,4,1,1
+Stompvirus BF2512,gladiolus,0.49920149004142034,4,1,1
+Unuamitovirus fuan1,gladiolus,0.49920149004142034,4,1,1
+Virus Rctr16k,gladiolus,0.49920149004142034,4,1,1
+Alfalfa dwarf cytorhabdovirus,pelargonium,0.4992014900414203,4,1,1
+Cestrum yellow leaf curling virus,polyscias balfouriana,0.4992014900414203,1,4,1
+Erysiphe necator associated ourmia-like virus 104,pittosporum,0.4992014900414203,1,4,1
+Passiflora edulis symptomless virus,pelargonium,0.4992014900414203,4,1,1
+Plasmopara viticola lesion associated mycobunyavirales-like virus 4,chamaerops,0.4992014900414203,1,4,1
+Soymovirus maculavaccinii,dracaena,0.4992014900414203,4,1,1
+Strawberry crinkle cytorhabdovirus,pelargonium,0.4992014900414203,4,1,1
+Tomato yellow mottle-associated virus,pelargonium,0.4992014900414203,4,1,1
+Vaccinivirus cadovaccinii,dracaena,0.4992014900414203,4,1,1
+Wuhan Insect virus 6,pelargonium,0.4992014900414203,4,1,1
+Erysiphe necator associated flexivirus 2,fraxinus,0.49920149004142017,1,4,1
+Erysiphe necator associated negative-stranded RNA virus 17,urtica,0.49920149004142017,1,4,1
+Impatiens necrotic spot tospovirus,aeschynanthus,0.49920149004142017,4,1,1
+Cestrum yellow leaf curling virus,oxalis,0.4992014900414201,1,4,1
+Changjiang tombus-like virus 20,aeschynanthus,0.4992014900414201,4,1,1
+Papaya ringspot virus,allium_sativum,0.4992014900414201,1,4,1
+Brassica campestris chinensis cryptic virus 1,vicia faba,0.49920149004142006,4,1,1
+Ek Balam virus,vicia faba,0.49920149004142006,4,1,1
+Lettuce dieback associated virus,vicia faba,0.49920149004142006,4,1,1
+Pea enation mosaic virus satellite RNA,vicia faba,0.49920149004142006,4,1,1
+Psocodean phenui-related virus OKIAV301,vicia faba,0.49920149004142006,4,1,1
+Vicia faba partitivirus 1,vicia faba,0.49920149004142006,4,1,1
+Plasmopara viticola lesion associated ourmia-like virus 75,rubus idaeus,0.49920149004142,1,4,1
+Banana streak GF virus,dahlia,0.49920149004141995,4,1,1
+Erysiphe necator associated abispo virus 3,lonicera,0.49920149004141995,1,4,1
+Medicago sativa amalgavirus 1,dahlia,0.49920149004141995,4,1,1
+Oidiodendron maius splipalmivirus 1,oxalis,0.49920149004141995,1,4,1
+Rubber dandelion latent virus 2,dahlia,0.49920149004141995,4,1,1
+Samuneavirus asiocola,dahlia,0.49920149004141995,4,1,1
+Yucca bacilliform virus,yucca elephantipes,0.49920149004141995,1,4,1
+Erysiphe necator associated negative-stranded RNA virus 17,fraxinus,0.4992014900414199,1,4,1
+Ivy vein banding virus,mentha,0.4992014900414198,4,1,1
+Mint virus X,mentha,0.4992014900414198,4,1,1
+Parsnip yellow fleck virus,mentha,0.4992014900414198,4,1,1
+Tomato spotted wilt tospovirus,mentha,0.49920149004141967,4,1,1
+Escherichia virus T4,eremurus himalaicus,0.4989350372736968,2,2,1
+Pepper ringspot virus,eremurus himalaicus,0.4989350372736968,2,2,1
+Petunia exserta mitovirus 1,gymnocalicium,0.4989350372736966,2,2,1
+Rattail cactus necrosis-associated virus,gymnocalicium,0.4989350372736965,2,2,1
+Plasmopara viticola lesion associated ourmia-like virus 87,gymnocalicium,0.4989350372736963,2,2,1
+Black grass cryptic virus 2,lolium perenne,0.49893503727369626,2,2,1
+Silene caulimovirus A,begonia,0.49893503727369626,2,2,1
+Beet cryptic virus 2,eremurus himalaicus,0.4989350372736962,2,2,1
+Woodruffvirus TP1604,petunia petchoa,0.4989350372736962,2,2,1
+Plasmopara viticola lesion associated ourmia-like virus 41,rosa,0.49893503727369615,2,2,1
+Sclerotinia sclerotiorum mitovirus 29,lolium perenne,0.49893503727369615,2,2,1
+Silene caulimovirus A,serissa,0.49893503727369615,2,2,1
+Arracacha virus B,yucca,0.498935037273696,2,2,1
+Citrus leaf blotch virus,begonia,0.4989350372736959,2,2,1
+Hubei picorna-like virus 51,rhodondendron indicum,0.4989350372736959,2,2,1
+Plasmopara viticola lesion associated ourmia-like virus 80,eremurus himalaicus,0.4989350372736959,2,2,1
+Ranunculus white mottle virus,musa,0.4989350372736959,2,2,1
+Cassava satellite virus,vitis,0.49893503727369587,2,2,1
+Scleroulivirus xiplasmoparae,stephanotis,0.49893503727369587,2,2,1
+Simian immunodeficiency virus,schefflera arboricola,0.49893503727369587,2,2,1
+Plasmopara viticola lesion associated mitovirus 33,urtica dioca,0.4989350372736958,2,2,1
+Watermelon crinkle leaf-associated virus 2,urtica dioca,0.4989350372736958,2,2,1
+Botrytis cinerea negative-stranded RNA virus 6,ulmus dodoens,0.4989350372736957,2,2,1
+Erysiphe necator associated ourmia-like virus 9,urtica dioca,0.4989350372736957,2,2,1
+Odontoglossum ringspot virus,eremurus himalaicus,0.4989350372736957,2,2,1
+Virus NIOZ-UU159,hibiscus rosa,0.4989350372736957,2,2,1
+Hibiscus betacarmovirus,hibiscus rosa,0.49893503727369565,2,2,1
+Immutovirus immuto,prunus serrulata,0.49893503727369565,2,2,1
+Bat posalivirus,corylus avellana,0.4989350372736956,2,2,1
+Chrocagosk virus,citrus,0.4989350372736956,2,2,1
+Erysiphe necator associated flexivirus 1,corylus avellana,0.4989350372736956,2,2,1
+Erysiphe necator associated tombus-like virus 7,fagus sylvatica,0.4989350372736956,2,2,1
+Varroa destructor virus 9,prunus serrulata,0.4989350372736956,2,2,1
+Army ant associated iflavirus 4,fagus sylvatica,0.49893503727369554,2,2,1
+Erysiphe necator associated ourmia-like virus 101,urtica dioca,0.49893503727369554,2,2,1
+Hulunbuir Botou tick virus 2,stephanotis,0.49893503727369554,2,2,1
+Bat posalivirus,ulmus dodoens,0.4989350372736955,2,2,1
+Nepovirus lycopersici,phlox,0.4989350372736955,2,2,1
+Nepovirus nicotianae,portulaca,0.4989350372736955,2,2,1
+Solanum nigrum ilarvirus 1,fagus sylvatica,0.4989350372736955,2,2,1
+Myoviridae sp. ctshb19,prunus serrulata,0.4989350372736954,2,2,1
+Blackberry chlorotic ringspot virus,phlox,0.49893503727369537,2,2,1
+Myoviridae sp. ctshb19,lactuca sativa,0.49893503727369537,2,2,1
+Dregea volubilis virus 2,begonia,0.4989350372736952,2,2,1
+Epiphyllum badnavirus 1,yacon,0.4989350372736951,2,2,1
+Panax ginseng flexivirus 1,rosa,0.4989350372736951,2,2,1
+Cacao swollen shoot Ghana N virus,passiflora,0.49839999589741524,8,2,2
+Papaya leaf curl Guandong virus,passiflora,0.49839999589741524,8,2,2
+Primula malacoides virus 1,paeonia,0.4983999958974148,8,2,2
+Cycas necrotic stunt virus,paeonia,0.4983999958974147,8,2,2
+Erysiphe necator associated ourmia-like virus 35,aeschynanthus,0.4978655282817495,4,4,2
+Impatiens necrotic spot orthotospovirus,aeschynanthus,0.4978655282817493,4,4,2
+Dicistroviridae sp.,prunus persica,0.49578187925508926,12,21,8
+Sweet potato badnavirus B,ipomaea batatas,0.4926077566417706,33,20,13
+Citrus viroid VI,hibiscus syriacus,0.48162619397779965,14,19,8
+Figwort mosaic virus,delphinium,0.47347776890972987,7,10,4
+Sopafab virus,citrus,0.4696441349967649,2,9,2
+Little cherry virus 2,stephanotis,0.46964413499676466,2,9,2
+Banana streak virus,musa,0.4696441349967643,2,9,2
+Plasmopamonavirus plasmoparae,citrus latifolia,0.4691399647055006,6,3,2
+Blueberry virus L,vaccinium,0.4691399647055,6,3,2
+Black raspberry necrosis virus,vaccinium,0.46913996470549985,6,3,2
+Penicillium discovirus,citrus latifolia,0.46913996470549935,6,3,2
+Hardenbergia virus A,tulipa,0.46018775386685024,14,3,3
+Betanecrovirus nicotianae,hibiscus syriacus,0.46018775386684957,14,3,3
+Banana streak UL virus,ficus,0.4462610627986865,5,1,1
+Changjiang narna-like virus 4,ficus,0.4462610627986865,5,1,1
+Lotus badnavirus 1,ficus,0.4462610627986865,5,1,1
+Citrus leaf rugose virus,ficus,0.4462610627986864,5,1,1
+Pahexavirus P144,ficus,0.4462610627986864,5,1,1
+Rosa ilarvirus-1,ficus,0.4462610627986864,5,1,1
+Poinsettia mosaic virus,euphorbia amygadaloides,0.4462610627986863,1,5,1
+Amarillovirales sp.,rubus,0.4462610627986862,5,1,1
+Erysiphe necator associated ourmia-like virus 12,rubus,0.4462610627986862,5,1,1
+Faba bean necrotic stunt virus,rubus,0.4462610627986862,5,1,1
+Lake Sinai virus 3,rubus,0.4462610627986862,5,1,1
+Orthonairovirus australiaense,rubus,0.4462610627986862,5,1,1
+Plasmopara viticola lesion associated Jingman-like virus 1,rubus,0.4462610627986862,5,1,1
+Tomato ilarvirus 1,rubus,0.4462610627986862,5,1,1
+Actinidia cytorhabdovirus JS27,ficus,0.44626106279868616,5,1,1
+Allamanda chlorotic virus A,ficus,0.44626106279868616,5,1,1
+Cladosporium cladosporioides negative-stranded RNA virus 2,rubus,0.44626106279868616,5,1,1
+Cytorhabdovirus asclepiadis,ficus,0.44626106279868616,5,1,1
+Cytorhabdovirus rubus,ficus,0.44626106279868616,5,1,1
+Downy mildew lesion associated splipalmivirus 4,rubus,0.44626106279868616,5,1,1
+Erysiphe necator associated ourmia-like virus 41,fraxinus,0.44626106279868616,1,5,1
+Exserohilum turcicum ourmia-like virus 1,rubus,0.44626106279868616,5,1,1
+Grapevine Kizil Sapak virus,ficus,0.44626106279868616,5,1,1
+Insect-associated tymovirus 3,ficus,0.44626106279868616,5,1,1
+Luteoviridae sp.,rubus,0.44626106279868616,5,1,1
+Luteovirus glycinis,rubus,0.44626106279868616,5,1,1
+Magnaporthe oryzae narnavirus 1,fraxinus,0.44626106279868616,1,5,1
+Mbeech associated narna-like virus 5,rubus,0.44626106279868616,5,1,1
+Ocimum alphacytorhabdovirus 1,ficus,0.44626106279868616,5,1,1
+Phomopsis asparagi partitivirus 1,rubus,0.44626106279868616,5,1,1
+Poplar mosaic virus,lonicera japonica,0.44626106279868616,5,1,1
+Tymovirus abelmoschi,ficus,0.44626106279868616,5,1,1
+Cynanchum yellow mottle-associated virus,ficus microcarpa,0.4462610627986861,5,1,1
+Peach mosaic virus,ficus microcarpa,0.4462610627986861,5,1,1
+Rhododendron delavayi secovirus,ficus microcarpa,0.4462610627986861,5,1,1
+Erysiphe necator associated mycovirus 1,fraxinus,0.44626106279868605,1,5,1
+Grapevine virus B,ficus microcarpa,0.44626106279868605,5,1,1
+Trichovirus armeniacae,ficus microcarpa,0.44626106279868605,5,1,1
+Trichovirus mali,ficus microcarpa,0.44626106279868605,5,1,1
+Birch carlavirus,lonicera japonica,0.446261062798686,5,1,1
+Carrot yellow leaf virus,ficus microcarpa,0.446261062798686,5,1,1
+Diascia yellow mottle virus,ficus microcarpa,0.446261062798686,5,1,1
+Elm carlavirus,lonicera japonica,0.446261062798686,5,1,1
+Grapevine leafroll-associated virus 2,ficus microcarpa,0.446261062798686,5,1,1
+Hackberry virus A,ficus microcarpa,0.446261062798686,5,1,1
+Heilongjiang mito-like virus 10,malus domestica,0.446261062798686,5,1,1
+Helleborus mosaic virus,lonicera japonica,0.446261062798686,5,1,1
+Inner Mongolia sediment mitovirus 3,malus domestica,0.446261062798686,5,1,1
+Ixodes scapularis associated virus-6,malus domestica,0.446261062798686,5,1,1
+Maculavirus vitis,ficus microcarpa,0.446261062798686,5,1,1
+Marafivirus asteroides,ficus microcarpa,0.446261062798686,5,1,1
+Sclerotinia sclerotiorum negative-stranded RNA virus 6,lonicera japonica,0.446261062798686,5,1,1
+Scleroulivirus sigmaplasmoparae,malus domestica,0.446261062798686,5,1,1
+Siphoviridae sp. ct2u94,lonicera japonica,0.446261062798686,5,1,1
+Solendovirus venaipomeae,nymphaea,0.446261062798686,1,5,1
+Soybean leaf-associated mitovirus 5,malus domestica,0.446261062798686,5,1,1
+Waikavirus zeae,ficus microcarpa,0.446261062798686,5,1,1
+Caulimovirus tessellomirabilis,helleborus,0.44626106279868594,5,1,1
+Erysiphe necator associated mycovirus 1,urtica,0.44626106279868594,1,5,1
+Flyfo myovirus Tbat2_7,awara,0.44626106279868594,1,5,1
+Fusarium graminearum ambivirus 1,helleborus,0.44626106279868594,5,1,1
+Grapevine-associated RNA virus 6,malus domestica,0.44626106279868594,5,1,1
+Guiyang bunya-like virus 1,helleborus,0.44626106279868594,5,1,1
+Leptosphaeria biglobosa narnavirus 15,helleborus,0.44626106279868594,5,1,1
+Meadow spikemoss associated yue-like virus,helleborus,0.44626106279868594,5,1,1
+Poaceae Liege partitivirus 14,helleborus,0.44626106279868594,5,1,1
+Qingdao RNA virus 4,helleborus,0.44626106279868594,5,1,1
+Shahe yuevirus-like virus 1,helleborus,0.44626106279868594,5,1,1
+Erysiphe necator associated totivirus 4,hoya,0.4462610627986859,5,1,1
+Erysiphe necator associated totivirus 6,hoya,0.4462610627986859,5,1,1
+Red clover associated virus 1,ajuga reptans,0.4462610627986859,5,1,1
+Sclerotinia sclerotiorum negative-stranded RNA virus 8-A,ajuga reptans,0.4462610627986859,5,1,1
+Soybean leaf-associated negative-stranded RNA virus 3,ajuga reptans,0.4462610627986859,5,1,1
+Suid alphaherpesvirus 1,hoya,0.4462610627986859,5,1,1
+Lettuce waikavirus 1,ajuga reptans,0.4462610627986858,5,1,1
+Citrus leaf blotch virus 2,hoya,0.44626106279868577,5,1,1
+Glehnia littoralis marafivirus,ficus,0.44626106279868577,5,1,1
+Grapevine virus F,hoya,0.44626106279868577,5,1,1
+Grapevine virus H,hoya,0.44626106279868577,5,1,1
+Lettuce yellow mottle cytorhabdovirus,ficus,0.44626106279868577,5,1,1
+Myrmica scabrinodis virus 2,ipomoae batatas bellevue,0.44626106279868577,5,1,1
+Nectarine marafivirus M,ficus microcarpa,0.44626106279868577,5,1,1
+Persimmon waikavirus,ficus,0.44626106279868577,5,1,1
+Plateaulakevirus pv4L372D,hoya,0.44626106279868577,5,1,1
+Sweet potato symptomless virus 1,batatas,0.44626106279868577,1,5,1
+Waikavirus AcYV1,ficus microcarpa,0.44626106279868577,5,1,1
+Wuhan 4 insect cytorhabdovirus,ficus,0.44626106279868577,5,1,1
