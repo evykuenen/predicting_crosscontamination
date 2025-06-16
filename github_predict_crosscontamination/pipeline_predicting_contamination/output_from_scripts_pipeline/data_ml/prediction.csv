@@ -1,0 +1,7 @@
+sample,host,virus,ani,correlation,fragmentation,average contig length
+0,104326-096-003,solanum lycopersicum,Southern tomato virus,1.0,0.388,1.0,3375
+1,104326-096-002,solanum lycopersicum,Southern tomato virus,1.0,0.388,0.27,286
+2,104326-096-002,solanum lycopersicum,Tomato blunervirus 1,1.0,0.157,0.93,5853
+3,104326-096-007,solanum lycopersicum,Pepino mosaic virus,0.99,0.156,0.95,1610
+4,104326-096-002,solanum lycopersicum,Pepino mosaic virus,0.99,0.156,1.0,3422
+5,104326-096-007,solanum lycopersicum,Tomato blunervirus 1,1.0,0.157,1.0,1727

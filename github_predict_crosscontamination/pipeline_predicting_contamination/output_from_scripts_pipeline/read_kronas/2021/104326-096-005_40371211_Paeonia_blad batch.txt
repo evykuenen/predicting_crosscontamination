@@ -1,0 +1,13 @@
+Name	Taxon	Rank	Contig
+Viruses	10239	superkingdom	['104326-096-005_(trimmed_pairs)_sampled_contig_152_(58..614)_consensus_chunk283', '104326-096-005_(trimmed_pairs)_sampled_contig_152_(1200..1342)_consensus_chunk288', '104326-096-005_(trimmed_pairs)_sampled_contig_213_(170..321)_consensus_chunk369']
+Riboviria	2559587	clade	['104326-096-005_(trimmed_pairs)_sampled_contig_152_(58..614)_consensus_chunk283', '104326-096-005_(trimmed_pairs)_sampled_contig_152_(1200..1342)_consensus_chunk288', '104326-096-005_(trimmed_pairs)_sampled_contig_213_(170..321)_consensus_chunk369']
+Orthornavirae	2732396	kingdom	['104326-096-005_(trimmed_pairs)_sampled_contig_152_(58..614)_consensus_chunk283', '104326-096-005_(trimmed_pairs)_sampled_contig_152_(1200..1342)_consensus_chunk288', '104326-096-005_(trimmed_pairs)_sampled_contig_213_(170..321)_consensus_chunk369']
+Pisuviricota	2732408	phylum	['104326-096-005_(trimmed_pairs)_sampled_contig_152_(58..614)_consensus_chunk283', '104326-096-005_(trimmed_pairs)_sampled_contig_152_(1200..1342)_consensus_chunk288', '104326-096-005_(trimmed_pairs)_sampled_contig_213_(170..321)_consensus_chunk369']
+Duplopiviricetes	2732505	class	['104326-096-005_(trimmed_pairs)_sampled_contig_152_(58..614)_consensus_chunk283', '104326-096-005_(trimmed_pairs)_sampled_contig_152_(1200..1342)_consensus_chunk288', '104326-096-005_(trimmed_pairs)_sampled_contig_213_(170..321)_consensus_chunk369']
+Durnavirales	2732549	order	['104326-096-005_(trimmed_pairs)_sampled_contig_152_(58..614)_consensus_chunk283', '104326-096-005_(trimmed_pairs)_sampled_contig_152_(1200..1342)_consensus_chunk288', '104326-096-005_(trimmed_pairs)_sampled_contig_213_(170..321)_consensus_chunk369']
+Partitiviridae	11012	family	['104326-096-005_(trimmed_pairs)_sampled_contig_152_(58..614)_consensus_chunk283', '104326-096-005_(trimmed_pairs)_sampled_contig_152_(1200..1342)_consensus_chunk288', '104326-096-005_(trimmed_pairs)_sampled_contig_213_(170..321)_consensus_chunk369']
+Betapartitivirus	1511809	genus	['104326-096-005_(trimmed_pairs)_contig_48_(3..2381)_consensus_chunk150']
+Primula malacoides virus 1	1511840	species	['104326-096-005_(trimmed_pairs)_contig_46_(2..2204)_consensus_chunk148']
+Primula malacoides virus China/Mar2007	479713	no rank	['104326-096-005_(trimmed_pairs)_contig_46_(2..2204)_consensus_chunk148']
+unclassified viruses	12429	no rank	['104326-096-005_(trimmed_pairs)_contig_17560_(166..907)_consensus_chunk38316']
+Piper DNA virus 2	1279081	species	['104326-096-005_(trimmed_pairs)_contig_17560_(166..907)_consensus_chunk38316']

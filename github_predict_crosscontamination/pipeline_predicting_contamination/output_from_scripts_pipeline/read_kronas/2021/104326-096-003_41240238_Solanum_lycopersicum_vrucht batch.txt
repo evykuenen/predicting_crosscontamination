@@ -1,0 +1,10 @@
+Name	Taxon	Rank	Contig
+Viruses	10239	superkingdom	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Riboviria	2559587	clade	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Orthornavirae	2732396	kingdom	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Pisuviricota	2732408	phylum	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Duplopiviricetes	2732505	class	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Durnavirales	2732549	order	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Amalgaviridae	1511860	family	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Amalgavirus	1511861	genus	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
+Southern tomato virus	591166	species	['104326-096-003_(trimmed_pairs)_contig_1451_(5..3379)_consensus_chunk4562']
