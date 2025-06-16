@@ -1,0 +1,263 @@
+a rosa
+abutilon
+acer campestre
+acer pseudo
+aegopodium
+aeschynanthus
+ajuga
+ajuga reptans
+ajuga reptans atropurpurea
+ajuga reptans burgundy
+allium cepa
+allium schoenoprasum
+allium tuberosum
+allium_sativum
+alnus glutinosa
+alocasia
+alstroemeria
+amorphophallus  paeoniifolius
+anemone
+aplpv pt ilar
+asparagus officinalis
+austrocylindropuntia subulata
+awara
+b lillium
+b rosa
+bacopa
+baptisia
+batatas
+batatas bellevue
+beaucarnea
+begonia
+beta vulgaris
+betaceum
+bougainvillea
+bromelia
+buddleja
+calibrachoa
+calibrachoa petchoa petunia
+calibrachoa petunia
+calopsis
+campanula
+campsis
+campsis c. quinoa
+capsicum
+capsicum annuum
+capsicum chinense
+carica papaya
+carpinus betulus
+celosia
+cercis
+cereus
+ceropegia
+cestrum latifolium
+chamaedorea elegans
+chamaedoria
+chamaerops
+chenopodium album
+chenopodium amaranticolor
+chenopodium quinoa
+chrysanthemum
+cichorium intybus
+citrullus lanatus
+citrus
+citrus latifolia
+cocos
+corylus avellana
+crataegus monogyna
+cucumis
+cucumis melo
+cucumis sativus
+cucurbita pepo
+cucurbita pepo xanthous
+cucurbitaceae
+cymbidium
+cyrtostachys renda
+dahlia
+delphinium
+dioscorea alata
+dioscorea batata
+dracaena
+dracaena  marginata
+dracaena sanderiana
+dracaena surculosa
+dypsis
+echinacea purpurea
+ehretia microphylla
+encyclia adenocaule
+eremurus himalaicus
+eryngium
+eucomis
+euphorbia
+euphorbia amygadaloides
+euphorbia amygdaloides
+euphorbia pulcherrima
+euphorbia tirucalli
+fagus sylvatica
+feijoa sellowiana
+ficus
+ficus carica
+ficus microcarpa
+fraxinus
+gerbera
+gladiolus
+glycine max
+gymnocalicium
+helleborus
+hemerocallis
+heracleum spondyllium
+hibiscus rosa
+hibiscus rosa sinensis
+hibiscus syriacus
+hibiscus syriacus ‘marina’
+hippeastrum
+hoya
+humulus lupulus
+hydrangea
+hylocereus
+ilex aquifolia
+ilex serrata
+ipomaea batatas
+ipomoae batatas bellevue
+ipomoae batatas orleans
+iris
+iris ensata
+iris germanica
+kerria
+lactuca sativa
+lavatera
+lavatera barnsley
+ligularia
+lilium
+lilium maldano rose
+lilium yelloween
+lillium
+liriope
+lobelia
+lolium perenne
+lonicera
+lonicera japonica
+lunnaria annua
+lysimachia
+malus
+malus domestica
+malus domestica elstar
+maxillaria
+mentha
+momordica
+momordica charanti
+monstera
+morus
+musa
+narcissus
+nepeta
+nepovirus
+nicotiana benthamiana
+nicotiana occidentalis
+nigrum
+nymphaea
+oncidium
+orchidacea
+osteospermum
+oxalis
+pachypodium
+paeonia
+paeonia lactiflora
+passiflora
+passiflora edulis
+pastinaca sativa
+pelargonium
+peperomia
+petchoa
+petchoa callibrachoa
+petunia
+petunia en calibrachoa
+petunia petchoa
+phalaenopsis
+phaseolus
+phaseolus vulgaris
+phlox
+phlox stolonifera
+phlox subulata
+physalis ixocarpa
+physalis peruviana
+pittosporum
+polygala
+polyscias balfouriana
+populus
+portulaca
+prunus
+prunus avium
+prunus laurocerasus
+prunus persica
+prunus serotina
+prunus serrulata
+quercus robur
+quercus rubra
+quitoense
+raphanus sativus
+rhodondendron indica
+rhodondendron indicum
+rhoeo spathacea
+rosa
+rosa corymbifera laxa
+rosmarinus
+rubus
+rubus idaeus
+rubus occidentalis
+s. lycopersicum
+s. torvum
+saint paulia
+salvia
+schefflera
+schefflera arboricola
+sedum
+serissa
+snsv
+snsv pt ilar
+solanmum melongena
+solanum
+solanum acroscopicum
+solanum aethiopicum
+solanum betaceum
+solanum gourlayi
+solanum laxissimum
+solanum lycopersicum
+solanum macrocarpon
+solanum melongena
+solanum pseudocapsicum
+solanum tuberosum
+solanum tuberosum andigena
+sorbus aucuparia
+spondias
+stephanotis
+strelitzia
+streptocarpus
+thunbergia
+tilia
+tobrfv
+tolmiea_menziesii
+torsv
+tradescantia
+triticum aestivum
+tropaeolum tuberosum
+tulipa
+ulmus dodoens
+unknown
+urtica
+urtica dioca
+vaccinium
+vaccinium corymbosum
+vanda
+vanda hybride
+veitchia merrilii
+viburnum
+vicia faba
+vitis
+vitis vinifera
+w lillium
+wisteria
+yacon
+yucca
+yucca elephantipes
+zea mays
