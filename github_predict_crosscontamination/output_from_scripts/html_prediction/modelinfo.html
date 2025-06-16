@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predict Contamination</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .modal-dialog {
+            max-width: 90%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .sidebar{
+            background-color: #e2e2e2;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+        .modal-content {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+        }
+        .center {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              height: 100%;
+            }
+        .sidebar .nav-item {
+            color: #1984c5;
+        }
+        .sidebar .nav-link:hover {
+            background-color: #22a7f0;
+            color: white;
+        }
+        .custom-bordered {
+            border: 4px solid #e2e2e2;
+            padding: 1rem;
+            border-radius: 20px;
+            background-color: white;
+        }
+        .background{
+            background-color: #e2e2e2;
+        }
+        .nav-link.active {
+            font-weight: bold;
+            background-color: #63bff0;
+        }
+        .nav-link {
+            background-color: #a7d5ed;
+            color: white;
+            text-align: center;
+            display: block;
+        }
+        .center-horizon{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Modal trigger (auto-triggered with JS) -->
+    <div class="modal fade show" id="dashboardModal" tabindex="-1" aria-labelledby="dashboardModalLabel" style="display:block;" aria-modal="true" role="dialog">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content shadow-lg">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="dashboardModalLabel">Model contamination prediction information</h1>
+                </div>
+                <div class="container-fluid background">
+                    <div class="row">
+                        <!-- Sidebar -->
+                        <div class="col-md-2 sidebar">
+                            <h4 class="center-horizon">Navigation</h4>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contamination_popup.html">Prediction results</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="modelinfo.html">Model information</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#table-section">Read research paper</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Main content -->
+                        <div class="col-md-10">
+                            <div class="row" >
+                                <div class="col-md-12 custom-bordered">
+                                    <h1>Information about model</h1>
+                                    <p> To predict contamination a voting classifier was choosen.
+                                        This model uses an ensemble learning approach that combines the strengths of multiple
+                                        classifiers to boost accuracy and robustness.
+                                        The ensemble uses:
+                                         <ul>
+                                            <li>
+                                                <a>Random Forest – reduces overfitting by averaging multiple decision trees.</a>
+                                            </li>
+                                            <li>
+                                                <a>Extra Trees Classifier – adds randomness to improve model diversity.</a>
+                                            </li>
+                                            <li>
+                                                <a>XGBoost – a high-performance gradient boosting framework.</a>
+                                            </li>
+                                            <li>
+                                                <a>Gradient Boosting – builds models sequentially to fix previous errors.</a>
+                                            </li>
+                                            <li>
+                                                <a>Bagging Classifier – trains base learners on different subsets to lower variance.</a>
+                                            </li>
+                                        </ul>
+                                        <b>How it works:</b>
+                                        <br>
+                                        The voting classifier works by combining the predictions of several base models.
+                                        Each model trained with different learning techniques. In this setup, Random
+                                        Forest, Extra Trees, XGBoost, Gradient Boosting, and a Bagging Classifier each
+                                        make their own prediction on whether a virus sample is contaminated.
+                                        Instead of choosing one model, the voting classifier brings together all
+                                        predictions using a voting strategy:
+                                        In soft voting (used here), the model averages the probability estimates from
+                                        all classifiers and chooses the class with the highest overall confidence. This
+                                        allows stronger, more confident models to have a greater influence on the final
+                                        decision.
+
+                                        By using multiple perspectives, the ensemble reduces the risk of errors from any
+                                        single model. It improves reliability, balances bias and variance, and performs
+                                        especially well on complex or imbalanced datasets like this biological
+                                        contamination samples dataset with only 6% of the dataset containing
+                                        contamination.</p><br>
+                                </div>
+                            </div>
+
+                            <div class="row" >
+                                <div class="col-md-12 custom-bordered">
+                                    <h1>Division of train, validation and test set</h1>
+                                    <p> The total dataset contained 52 contaminated viruses and 798 non-contaminated viruses.
+                                        This total dataset was divided into a train (80%), validation(10%) and test(10%) set.
+                                        With a test set of 85, a validation set of 85 and a trainset of 680 viruses.
+                                        In the trainset there are 41 contaminant viruses, in the test 6 and in the
+                                        validation 5.</p><br>
+                                </div>
+                            </div>
+
+                            <div class="row" >
+                                <div class="col-md-8 custom-bordered">
+                                    <h1>Why this model?</h1>
+                                        <p>From the 10 models trained and tested this model had the best recall average of
+                                            contaminated and non-contaminated viruses in samples. With a recall of 81% while
+                                            the next best model (Random forest) had a recall average of 4% less and the
+                                            worst model (Complement naïve bayes) 22% less.
+                                            Statistics about the other models can be found in the research paper.
+                                            <a class="nav-link" href="#table-section">Read research paper</a>
+                                            <br>
+                                            <p>
+                                            The confusion matrix in Figure 1 illustrates the number of true positives,
+                                            true negatives, false positives, and false negatives predicted by the voting
+                                            classifier.
+                                            From this matrix, three key performance metrics were derived:
+                                            </p>
+                                            <ul>
+                                                <li><strong>F1 Score (0.934)</strong> – A balance between precision and recall, especially important in imbalanced datasets like this one. A high F1 score shows the model is effectively detecting contaminated viruses without too many false positives.</li>
+                                                <li><strong>Matthews Correlation Coefficient (MCC: 0.54)</strong> – A more balanced evaluation that takes into account all four confusion matrix categories. It’s a good overall indicator of model quality, especially when class sizes differ.</li>
+                                                <li><strong>Accuracy (93%)</strong> – The proportion of total correct predictions. While useful, it can be misleading with imbalanced data, so it’s best interpreted alongside F1 and MCC.</li>
+                                            </ul>
+                                            <p>
+                                            Together, these scores confirm that the voting classifier performs reliably across both contaminated and non-contaminated virus samples.
+                                            </p>
+                                            <br>
+                                            <p>The ROC AUC score is a valuable metric to assess the classifier's ability to distinguish between contaminated and non-contaminated viruses across various thresholds.
+                                            This model achieved an AUC of <strong>0.89</strong>, indicating excellent discriminative performance.
+                                            Figure 2 shows the ROC curve, where the closer the curve follows the top-left corner, the better the performance.</p>
+
+                                            </p><br>
+                                </div>
+                                <div class="col-md-4 custom-bordered">
+                                    <img src="photos_model_voting/voting_classifier_test.png">
+                                    <p>Figure 1: confusion matrix of test set voting classifier.</p>
+                                    <img src="photos_model_voting/voting_classifier_roc.png" >
+                                    <p>Figure 2: ROC curve of the voting classifier on the test set.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
