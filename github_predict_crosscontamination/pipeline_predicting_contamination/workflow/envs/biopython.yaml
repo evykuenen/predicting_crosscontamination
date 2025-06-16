@@ -1,0 +1,7 @@
+name: biopython
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - conda-forge::biopython
+prefix: /home/Evy/miniforge3/envs/biopython

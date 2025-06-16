@@ -1,0 +1,10 @@
+name: snakemake
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::snakemake
+  - conda-forge::bs4
+  - xlrd
+  - conda
+prefix: /home/Evy/.conda/envs/snakemake

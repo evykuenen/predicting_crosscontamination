@@ -1,0 +1,5 @@
+name: pandas
+channels:
+  - conda-forge
+  - bioconda
+prefix: /home/Evy/miniforge3/envs/pandas

@@ -1,0 +1,1232 @@
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 12196
+	virus: 5914
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Tue May 13 10:54:58 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.60s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 171
+	virus: 353
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Tue May 13 10:54:59 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.56s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 276
+	virus: 500
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Tue May 13 10:55:01 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.57s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 5914
+	virus: 12196
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Tue May 13 10:55:12 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.60s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 353
+	virus: 171
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Tue May 13 10:55:13 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.57s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 500
+	virus: 276
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Tue May 13 10:55:15 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.57s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 13737
+	virus: 314177
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Tue May 13 10:56:53 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.65s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 9914
+	virus: 684592
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 06:53:51 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.84s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 12196
+	virus: 5914
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 06:54:01 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.63s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 276
+	virus: 500
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 06:54:02 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.60s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 171
+	virus: 353
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 06:54:04 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.60s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 5914
+	virus: 12196
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 06:54:16 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.63s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 353
+	virus: 171
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 06:54:19 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.61s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 500
+	virus: 276
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 06:54:21 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.60s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 9914
+	virus: 684592
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:05:24 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.83s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 171
+	virus: 353
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:05:34 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.61s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 12196
+	virus: 5914
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:05:36 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.65s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 276
+	virus: 500
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:05:37 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.62s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 353
+	virus: 171
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:05:49 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.62s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 5914
+	virus: 12196
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:05:51 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.64s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 500
+	virus: 276
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:05:52 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.62s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 13737
+	virus: 708243
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:10:22 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.76s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 14490
+	virus: 13688
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:50:44 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.65s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 10360
+	virus: 5853
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:50:46 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.59s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 3375
+	virus: 1714
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:50:48 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.60s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 1714
+	virus: 3375
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:50:51 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.60s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 5853
+	virus: 10360
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:50:53 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.61s
+
+=== Nieuwe PyANI Run ===
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using scheduler method: multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: Using ANI method: ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: FORCE set, removing existing /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Identifying FASTA files in /student_data/Evy/testing_ani/temp/genomes
+[INFO] [pyani.scripts.average_nucleotide_identity]: Input files:
+	/student_data/Evy/testing_ani/temp/genomes/sample.fasta
+	/student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing input sequence lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: Sequence lengths:
+	sample: 13688
+	virus: 14490
+[INFO] [pyani.scripts.average_nucleotide_identity]: Carrying out ANIm analysis
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running ANIm
+[INFO] [pyani.scripts.average_nucleotide_identity]: Generating NUCmer command-lines
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing nucmer output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.anim]: Working with nucmer command: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Running jobs with multiprocessing
+[INFO] [pyani.scripts.average_nucleotide_identity]: (using maximum number of available worker threads)
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample /student_data/Evy/testing_ani/temp/genomes/virus.fasta /student_data/Evy/testing_ani/temp/genomes/sample.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: nucmer --maxmatch -p /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus /student_data/Evy/testing_ani/temp/genomes/sample.fasta /student_data/Evy/testing_ani/temp/genomes/virus.fasta
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool now running:
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/sample/sample_vs_virus.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: delta_filter_wrapper.py delta-filter -1 /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.delta /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output/virus/virus_vs_sample.filter
+[INFO] [pyani.scripts.average_nucleotide_identity]: Command pool done.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Cumulative return value: 0
+[INFO] [pyani.scripts.average_nucleotide_identity]: All multiprocessing jobs complete.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Processing NUCmer .delta files.
+[INFO] [pyani.anim]: /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output has 2 files to load
+[INFO] [pyani.scripts.average_nucleotide_identity]: Compressing/deleting /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Compressing output from /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output to /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output.tar.gz
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	Removing output directory /student_data/Evy/testing_ani/temp/pyani_output/nucmer_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: Writing ANIm results to /student_data/Evy/testing_ani/temp/pyani_output
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_lengths
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_percentage_identity
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_alignment_coverage
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_similarity_errors
+[INFO] [pyani.scripts.average_nucleotide_identity]: 	/student_data/Evy/testing_ani/temp/pyani_output/ANIm_hadamard
+[INFO] [pyani.scripts.average_nucleotide_identity]: Done: Thu May 15 07:50:54 2025.
+[INFO] [pyani.scripts.average_nucleotide_identity]: Time taken: 0.65s

@@ -1,0 +1,11 @@
+name: machine_learning
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - conda-forge::joblib
+  - conda-forge::pandas
+  - conda-forge::matplotlib
+  - conda-forge::scikit-learn
+  - conda-forge::path
+prefix: /home/Evy/miniforge3/envs/machine_learning

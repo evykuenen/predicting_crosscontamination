@@ -1,0 +1,174 @@
+## Made by: Evy Kuenen
+## Last Updated: 20250513
+## Version: 0.1
+## The Snakefile for contamination prediction pipeline.
+## This Snakefile contains rules for reading, pre-processing and predicting 
+## contamination in illumina HTS metagenome files that preprocessed with clc.
+## $  conda env create --file=env/snakemake.yaml --name=snakemake
+## This creates the snakemake conda environment you need to run this file.
+## $  conda activate snakemake_env
+## This activates the snakemake environment.
+## You can run the script using this code after activating the
+## snakemake environment:
+## $  snakemake -c all --use-conda {desired_output}
+## This will run the rules needed to generate whatever filename
+## you fill in for {desired_output}.
+## If you leave out {desired_output}, the snakefile will generate all
+## outputs for all the samples in the `config/generated_config.yaml` file.
+
+
+# rule read_krona reads html krona files produced by clc and stores them in files with all virusses found, their contigs, their rank and tax id.
+rule read_krona:
+    input:
+        BASE_DIR = "../input_files_pipeline"
+    output:
+        output_dir = directory("../output_from_scripts_pipeline/read_kronas")
+    params:
+        script = "scripts/getting_starting_data/read_krona_files.py"
+    shell:
+        "python {params.script} {input.BASE_DIR} {output.output_dir}"
+    
+
+# rule get_krona_info gets from the files from the read_krona rule the virus species, their host, sample id and contigs.
+rule get_krona_info:
+    input:
+        path_krona_dir = "../output_from_scripts_pipeline/read_kronas",
+        path_lims_to_sample = "../output_from_scripts_making_model/sample_ids_contaminated_samples/sample_to_lims.csv",
+        path_excel_dir = "../test_data/data/label_data_virology/Virologie/Virologie",
+        path_extra_hosts = "../test_data/data/Logboeken_officiele_documenten"
+    output:
+        dir_name = directory("../output_from_scripts_pipeline/getting_sample_host_virus_from_krona_files/"),
+        path_normalized_data = "../output_from_scripts_pipeline/getting_sample_host_virus_from_krona_files/krona_data.csv",
+        path_hosts = "../output_from_scripts_pipeline/getting_sample_host_virus_from_krona_files/hosts_in_krona_files.txt"
+    params:
+        script = "scripts/getting_starting_data/get_krona_info.py"
+    shell:
+        "python {params.script} {input.path_krona_dir} {input.path_lims_to_sample} {input.path_excel_dir} {input.path_extra_hosts} {output.dir_name} {output.path_normalized_data} {output.path_hosts}"
+
+
+# rule get_contaminant_virus gets from the file from get_krona_info the potential contaminants (same virus in multiple samples same batch) and saves them.
+rule get_contaminant_virus:
+    input:
+        normalized_data = "../output_from_scripts_pipeline/getting_sample_host_virus_from_krona_files/krona_data.csv",
+        path_to_extra_contig_names = "../test_data/data/extra_krona_raporten_aanvraag_extra_contigs",
+        clc_output_with_krona_virus_taxon_contigs_output = "../output_from_scripts_pipeline/read_kronas"
+    output:
+        directory_name = directory("../output_from_scripts_pipeline/potential_contaminants_output"),    
+        path_potential_contaminants = "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants.csv",
+        potential_contaminants_with_non_foldable_krona_contigs = "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants_with_non_foldable_krona_contigs.csv",
+        potential_contaminants_with_contigs = "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants_with_contigs.csv"
+    params:
+        script="scripts/getting_potential_contaminants/get_contaminant_virus.py"
+    shell:
+        "python {params.script} {input.normalized_data} {input.path_to_extra_contig_names} {input.clc_output_with_krona_virus_taxon_contigs_output} {output.directory_name} {output.path_potential_contaminants} {output.potential_contaminants_with_non_foldable_krona_contigs} {output.potential_contaminants_with_contigs}"
+
+
+# rule count_contigs counts how many contigs a sample has and what the total length of contigs is.
+rule count_contigs:
+    input:
+        contig_ids_potential_contaminants= "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants_with_non_foldable_krona_contigs.csv",
+        path_to_contig_seq = "/MolbioStorage/6.Temp/Temp_Evy/contigs"
+    output:
+        length_file="../output_from_scripts_pipeline/feature_files/length_contigs.csv",
+        count_file = "../output_from_scripts_pipeline/feature_files/count_contigs.csv"
+    params:
+        script = "scripts/getting_features/count_contigs.py"
+    conda:
+        "envs/biopython.yaml"
+    shell:
+        "python {params.script} {input.contig_ids_potential_contaminants} {input.path_to_contig_seq} {output.length_file} {output.count_file}"
+    
+
+# rule calculate_fragmentation gets for the same virus in a batch the length of longest contig of the batch devided by the length of longest contig of a sample.      
+rule calculate_fragmentation:
+    input:
+        contig_ids_potential_contaminants="../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants_with_non_foldable_krona_contigs.csv",
+        path_to_contig_seq = "/MolbioStorage/6.Temp/Temp_Evy/contigs"
+    output:
+        fragmentation_file = "../output_from_scripts_pipeline/feature_files/fragmentation.csv"
+    params:
+        script = "scripts/getting_features/calculate_fragmentation.py"
+    conda:
+        "envs/biopython.yaml"
+    shell:
+        "python {params.script} {input.contig_ids_potential_contaminants} {input.path_to_contig_seq} {output.fragmentation_file}"
+
+
+# rule calculate_ani calculates the average nucleotide identity between the same virus in a batch and in a sampl 
+rule calculate_ani:
+    input:
+        contig_ids_potential_contaminants = "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants_with_non_foldable_krona_contigs.csv",
+        path_to_contig_seq = "/MolbioStorage/6.Temp/Temp_Evy/contigs"
+    output:
+        path_ani = "../output_from_scripts_pipeline/feature_files/ani_scores.csv"
+    params:
+        script = "scripts/getting_features/calculate_ani_score.py"
+    conda:
+        "envs/biopythonpandas.yaml"
+    shell:
+        "python {params.script} {input.contig_ids_potential_contaminants} {input.path_to_contig_seq} {output.path_ani}"
+
+
+# rule make_prediction_file combines all features in a file for the model.
+rule make_prediction_file:  
+    input:
+        path_ani_scores = "../output_from_scripts_pipeline/feature_files/ani_scores.csv",
+        path_fragmentation = "../output_from_scripts_pipeline/feature_files/fragmentation.csv",
+        path_host_virus_correlation = "../output_from_scripts_making_model/correlation_analysis_output/host_virus_correlation_matrix.csv",
+        path_contig_count = "../output_from_scripts_pipeline/feature_files/count_contigs.csv",
+        path_length_contigs = "../output_from_scripts_pipeline/feature_files/length_contigs.csv",
+    output:
+        prediction_file = "../output_from_scripts_pipeline/data_ml/prediction.csv"  
+    params:
+        script = "scripts/make_train_and_test_file/make_prediction_file.py"
+    shell:
+        "python {params.script} {input.path_ani_scores} {input.path_fragmentation} {input.path_host_virus_correlation} {input.path_contig_count} {input.path_length_contigs} {output.prediction_file}"    
+        
+
+# rule give_prediction gives a prediction of samples in the prediction file if they are contaminated.        
+rule give_prediction:
+    input:
+        df_path = "../output_from_scripts_pipeline/data_ml/prediction.csv",
+        model_path = "../output_from_scripts_making_model/machine_learning_model/complement_nb_2xaugment_mcc.23.joblib"
+    output:
+        template_path = "../output_from_scripts_pipeline/html/popup_template.html",
+        output_path = "../output_from_scripts_pipeline/html/contamination_popup.html"
+    params:
+        script = "scripts/machine_learning/predict_contamination.py"
+    conda:
+        "envs/machine_learning.yaml"
+    shell:
+        "python {params.script} {input.df_path} {input.model_path} {output.template_path} {output.output_path} "
+
+            
+rule all:
+    input:
+        # output read_krona
+        "../output_from_scripts_pipeline/read_kronas",
+        
+        # Outputs van get_krona_info
+        "../output_from_scripts_pipeline/getting_sample_host_virus_from_krona_files/krona_data.csv",
+        "../output_from_scripts_pipeline/getting_sample_host_virus_from_krona_files/hosts_in_krona_files.txt",
+
+        # output get_contaminant_virus
+        "../output_from_scripts_pipeline/potential_contaminants_output",
+        "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants.csv",
+        "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants_with_non_foldable_krona_contigs.csv",
+         "../output_from_scripts_pipeline/potential_contaminants_output/potential_contaminants_with_contigs.csv",
+         
+         # output count_contigs:
+         "../output_from_scripts_pipeline/feature_files/length_contigs.csv",
+         "../output_from_scripts_pipeline/feature_files/count_contigs.csv",
+         
+         # output calculate_fragmentation
+         "../output_from_scripts_pipeline/feature_files/fragmentation.csv",
+         
+         # output calculate_ani
+         "../output_from_scripts_pipeline/feature_files/ani_scores.csv",
+         
+         # output make_prediction_file
+         "../output_from_scripts_pipeline/data_ml/prediction.csv",
+         
+         # output give_prediction
+         "../output_from_scripts_pipeline/html/popup_template.html",
+         "../output_from_scripts_pipeline/html/contamination_popup.html"
