@@ -1,0 +1,86 @@
+sample,host,virus,ani,correlation,fragmentation,average contig length,contig_count,contamination
+103943-020-003,tobrfv,Petunia vein clearing virus,1.0,0.0909,0.2688,150,1,0
+104326-046-006,capsicum,Tomato spotted wilt orthotospovirus,0.9605,0.0115,1.0,2169,15,0
+104326-040-001,solanum lycopersicum,Tomato brown rugose fruit virus,1.0,0.2991,0.0478,137,3,0
+103165-038-012,unknown,Tobacco ringspot virus,0.9907,0.0,1.0,2838,4,0
+103943-005-002,solanum lycopersicum,Pepino mosaic virus,0.998,0.1544,1.0,3418,4,0
+103165-033-011,cereus,Schlumbergera virus X,0.8336,-0.0018,0.9991,3282,5,0
+103943-044-001,unknown,Cucumber mosaic virus,0.7774,0.0,1.0,520,27,0
+104326-040-003,solanum lycopersicum,Southern tomato virus,0.9959,0.3854,0.0706,239,1,0
+103943-004-003,solanum lycopersicum,Tomato mosaic virus,0.8839,0.2556,0.1366,177,7,0
+103943-044-001,unknown,Bell pepper alphaendornavirus,0.9956,0.0,0.2667,1719,9,0
+103165-040-001,ajuga reptans burgundy,Tobacco ringspot virus,0.9627,-0.0018,0.0764,347,4,0
+104326-056-014,w lillium,Rhizophagus irregularis mitovirus 2,0.6061,0.0,0.9667,265,3,0
+104326-092-001,capsicum,Potato virus Y,0.9894,0.0874,0.1646,2434,4,0
+103943-006-008,unknown,Bacopa chlorosis virus,0.6617,0.0,1.0,265,5,0
+104326-031-010,s. lycopersicum,Alternanthera mosaic virus,1.0,-0.0096,0.2181,412,4,0
+103165-021-002,unknown,Tomato mosaic virus,0.951,0.0,1.0,470,94,0
+104326-040-005,solanum lycopersicum,Southern tomato virus,1.0,0.3854,0.0833,219,5,1
+104326-080-002,solanum lycopersicum,Pepino mosaic virus,0.9989,0.1544,0.2801,1447,12,0
+104326-061-003,solanum lycopersicum,Southern tomato virus,0.9926,0.3854,1.0,1684,2,0
+103165-001-017,solanum tuberosum,Potato virus X,0.8929,0.1253,0.0432,168,4,0
+103165-040-005,solanum lycopersicum,Pepino mosaic virus,0.9912,0.1544,0.9778,6486,1,0
+104326-092-002,capsicum,Maize associated partiti-like virus,0.9802,0.1781,1.0,1811,1,0
+103165-020-025,unknown,Hubei picorna-like virus 67,1.0,0.0,0.0441,423,1,0
+104326-060-006,solanum lycopersicum,Pepino mosaic virus,0.9887,0.1544,0.7581,1090,16,0
+102906-001-007,capsicum,Raspberry leaf blotch emaravirus,0.9861,0.0816,1.0,1035,1,0
+102906-001-006,capsicum,Bell pepper alphaendornavirus,0.9983,0.2816,0.8271,14857,1,0
+104326-058-011,yacon,Yacon necrotic mottle virus,0.9562,-0.0026,0.9497,499,25,0
+103165-020-015,unknown,Plum pox virus,0.9996,0.0,0.9074,2371,5,0
+104326-060-011,cucumis sativus,Cucurbit aphid-borne yellows virus,0.9978,0.3219,0.9977,2928,2,0
+103165-021-002,unknown,Cucumber mosaic virus,0.9857,0.0,0.4632,333,154,0
+103165-001-007,solanum macrocarpon,Grapevine Red Globe virus,0.4855,-0.0037,0.7465,387,7,0
+104326-061-007,solanum lycopersicum,Tomato brown rugose fruit virus,0.9953,0.2991,0.9111,545,20,0
+103165-044-019,ajuga reptans,Alfalfa mosaic virus,0.987,-0.0048,0.8152,1862,4,0
+103943-050-009,solanum lycopersicum,Tomato brown rugose fruit virus,1.0,0.2991,0.9876,6305,1,0
+102906-001-017,capsicum annuum,Bell pepper alphaendornavirus,0.9903,0.2792,0.2592,877,20,0
+103943-005-005,unknown,Tomato brown rugose fruit virus,0.9978,0.0,0.8948,3388,2,0
+104326-102-013,solanum lycopersicum,Southern tomato virus,0.9991,0.3854,0.4195,1083,3,0
+103165-019-015,iris germanica,Tobacco ringspot virus,0.9965,-0.0032,0.8208,1215,12,0
+103943-041-001,unknown,Plasmopara viticola associated ourmia-like virus 87,0.4995,0.0,1.0,929,1,0
+103165-019-023,unknown,Beet pseudoyellows virus,0.4636,0.0,1.0,655,8,0
+103165-001-018,solanum tuberosum,Potato virus A,0.9926,0.0,0.1602,1130,13,0
+103943-004-001,solanum lycopersicum,Tomato mosaic virus,0.9256,0.2556,1.0,1101,5,0
+103943-015-004,unknown,Tomato mottle mosaic virus,1.0,0.0,0.994,6334,1,0
+103165-033-011,cereus,Cactus virus X,0.9764,0.0,1.0,2619,27,0
+103165-038-005,unknown,Passiflora latent virus,0.8775,0.0,0.8323,1111,16,0
+104326-107-007,solanum lycopersicum,Potato virus T,0.705,-0.0137,1.0,1031,6,0
+104326-031-009,s. lycopersicum,Tomato brown rugose fruit virus,0.9874,-0.0123,1.0,471,7,0
+104326-107-003,asparagus officinalis,uncultured virus,0.5117,0.1574,0.9091,260,1,0
+103165-035-010,unknown,Capsicum chlorosis virus,0.6711,0.0,0.8516,132,1,0
+103165-038-012,unknown,Bellflower vein chlorosis virus,0.8871,0.0,0.1735,612,4,0
+104326-096-002,solanum lycopersicum,Tomato blunervirus 1,0.9096,0.1556,0.9263,5853,1,1
+104326-095-002,capsicum,Tomato brown rugose fruit virus,1.0,-0.0018,0.9954,6329,1,1
+104326-085-003,citrus latifolia,Erysiphe necator associated virus 6,0.8366,-0.0045,0.482,246,4,0
+103165-020-022,unknown,Hubei picorna-like virus 67,0.9991,0.0,0.9796,9406,1,0
+103165-020-023,unknown,Bundaberg bee virus 2,0.6871,0.0,1.0,1954,2,0
+103165-020-023,unknown,Hubei picorna-like virus 67,0.9994,0.0,0.997,9573,1,0
+104326-058-012,yacon,Yacon necrotic mottle virus,0.9684,-0.0026,1.0,517,23,0
+104326-050-004,solanum tuberosum,Potato virus S,0.9739,-0.0203,0.4002,421,45,0
+103165-021-003,unknown,Clover yellow vein virus,0.9959,0.0,0.9859,4859,2,0
+104326-085-003,citrus latifolia,Diaphorina citri picorna-like virus,1.0,0.4072,1.0,3700,2,0
+104326-060-010,cucumis sativus,Cucurbit aphid-borne yellows virus,1.0,0.3219,0.0212,120,1,0
+000000-001-002,allium tuberosum,Petuvirus venapetuniae,1.0,-0.0074,0.0724,166,2,1
+103165-001-002,solanum tuberosum,Cassava Torrado-like virus,0.6686,0.0,0.9709,5371,1,0
+103943-038-005,capsicum,Tomato mosaic virus,1.0,-0.0335,0.215,306,7,1
+104326-102-015,solanum lycopersicum,Siphoviridae sp.,0.5172,-0.006,1.0,164,3,0
+104326-037-007,capsicum annuum,Bell pepper alphaendornavirus,0.9748,0.2792,1.0,2884,7,0
+103165-001-006,solanum tuberosum,Potato virus A,0.9995,0.0,0.361,2424,5,0
+104326-058-008,paeonia,Schlumbergera virus X,0.9979,-0.0052,0.8086,1536,4,0
+104326-080-001,solanum lycopersicum,Pepino mosaic virus,0.9909,0.1544,0.6679,685,65,0
+104326-107-002,bromelia,Phoenicopteridae parvo-like hybrid virus,0.4835,0.4072,0.7049,203,1,0
+104326-050-002,wisteria,Peanut chlorotic streak virus,0.4813,0.2004,1.0,1226,1,0
+104326-034-004,tulipa,Cucumber mosaic virus,0.9974,0.338,0.6071,377,1,0
+104326-058-010,paeonia,Piper DNA virus 1,0.7838,-0.0096,0.6771,507,2,0
+103943-015-005,unknown,Maize associated partiti-like virus,0.6715,0.0,1.0,2414,2,0
+103943-038-004,capsicum,Pepper mild mottle virus,0.6974,-0.0244,1.0,414,42,0
+103165-020-020,unknown,Hubei picorna-like virus 68,0.9621,0.0,1.0,7721,1,0
+104326-034-003,tulipa,Diuris virus A,0.737,0.3045,0.4234,340,1,0
+104326-040-004,solanum lycopersicum,Pepino mosaic virus,1.0,0.1544,0.0082,139,1,1
+104326-056-006,w lillium,Mitovirus sp.,0.9998,-0.0094,0.9665,2394,6,0
+103165-020-026,unknown,Blackberry virus Z,0.9925,0.0,0.0836,400,1,0
+104326-033-004,capsicum annuum,Pepper cryptic virus 2,0.9974,0.0749,0.3273,1534,2,0
+104326-099-007,cucumis sativus,Cucurbit aphid-borne yellows virus,0.9987,0.3219,0.46,3104,2,0
+103165-001-012,phaseolus vulgaris,Tomato necrotic spot virus,0.9879,-0.0018,0.5904,370,42,0
+103165-001-004,solanum tuberosum,Red clover nepovirus A,0.9462,0.2588,0.9945,7072,1,0
+104326-067-002,solanum lycopersicum,Broad bean wilt virus 1,0.4273,0.1369,0.5837,150,1,0
