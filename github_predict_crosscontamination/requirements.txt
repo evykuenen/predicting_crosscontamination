@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+xgboost
+imbalanced-learn
+beautifulsoup4
+openpyxl
+biopython
