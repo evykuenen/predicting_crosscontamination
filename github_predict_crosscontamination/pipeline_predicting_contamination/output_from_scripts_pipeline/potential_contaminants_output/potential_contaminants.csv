@@ -1,4 +1,0 @@
-sample,host,viruses,count_viruses
-104326-096-007,solanum lycopersicum,"['Pepino mosaic virus', 'Tomato blunervirus 1']",2
-104326-096-003,solanum lycopersicum,['Southern tomato virus'],1
-104326-096-002,solanum lycopersicum,"['Southern tomato virus', 'Tomato blunervirus 1', 'Pepino mosaic virus']",3
